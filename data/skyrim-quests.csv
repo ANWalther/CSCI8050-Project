@@ -1,0 +1,23 @@
+QUEST_NAME,QUESTLINE,PREREQUISITE_QUEST,LOCATIONS
+Unbound,Main Quest,none,Helgen.Helgen Keep
+Before the Storm,Main Quest,Unbound,Riverwood.Whiterun
+Bleak Falls Barrow,Main Quest,Before the Storm,Riverwood.Bleak Falls Barrow.Dragonsreach
+Dragon Rising,Main Quest,Bleak Falls Barrow,Dragonsreach.Western Watchtower
+The Way of the Voice,Main Quest,Dragon Rising,Ivarstead.High Hrothgar
+The Horn of Jurgen Windcaller,Main Quest,The Way of the Voice,High Hrothgar.Ustengrav.Riverwood
+A Blade in the Dark,Main Quest,The Horn of Jurgen Windcaller,Riverwood.Kynesgrove
+Diplomatic Immunity,Main Quest,A Blade in the Dark,Riverwood.Solitude.Thalmor Embassy
+Find the Thalmor Assassin,Main Quest,Diplomatic Immunity,Windhelm
+A Cornered Rat,Main Quest,Diplomatic Immunity,Riften.The Ratway
+Alduin's Wall,Main Quest,A Cornered Rat,The Ratway.Riverwood.Sky Haven Temple
+The Throat of the World,Main Quest,Alduin's Wall,High Hrothgar.Throat of the World
+The White Phial,Side Quest,none,Windhelm.Forsaken Cave
+Repairing the Phial,Side Quest,The White Phial.The Throat of the World,Windhelm.Throat of the World.Stonehill Bluff
+Elder Knowledge,Main Quest,The Throat of the World,Throat of the World.Sky Haven Temple.High Hrothgar.Septimus Signus's Outpost.Alftand.Blackreach.Tower of Mzark
+Alduin's Bane,Main Quest,Elder Knowledge,Throat of the World
+The Fallen,Main Quest,Alduin's Bane,Throat of the World.High Hrothgar.Sky Haven Temple.Dragonsreach
+Season Unending,Main Quest,Alduin's Bane,Solitude.Windhelm.High Hrothgar
+Paarthurnax,Main Quest,The Fallen,Sky Haven Temple.Throat of the World
+The World-Eater's Eyrie,Main Quest,The Fallen,Skuldafn
+Sovngarde,Main Quest,The World-Eater's Eyrie,Sovngarde
+Dragonslayer,Main Quest,Sovngarde,Hall of Valor.Sovngarde
