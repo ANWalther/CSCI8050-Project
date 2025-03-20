@@ -23,7 +23,7 @@ The questlines included are:
 - Side Quest(s)
 - Master Skill Quest(s)
 
-Any quests introduced by DLC are excluded from this set, along with miscellaneous quests which have one or more properties that make them unsuitable for this analysis. Specifically, quests that involve collecting materials that can be found throughout the game world and are not unique. These quests may be included if they are part of a larger questline and, in these cases, only the location of the quest-giver will be listed.
+Any quests introduced by DLC are excluded from this set, along with miscellaneous quests which have one or more properties that make them unsuitable for this analysis. Specifically, quests that involve collecting materials that can be found throughout the game world and are not unique. These quests may be included if they are part of a larger questline and, in these cases, only the location of the quest-giver will be listed. Additionally, quests that only take place in one location, such as most quests associated with dungeons, will not be included.
 
 Quests that involve radiant locations, locations that are randomly selected when the quest is given, will be considered on a case-by-case basis. If the radiant locations for the quest are finite in number (and reasonable to enumerate), then every enumeration of the quest with radiant locations will be included and labeled as follows:
 
