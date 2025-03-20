@@ -21,5 +21,12 @@ The questlines included are:
 - Thieves Guild
 - Daedric Quest(s)
 - Side Quest(s)
+- Master Skill Quest(s)
 
-Any quests introduced by DLC are excluded from this set, along with miscellaneous quests which have one or more properties that make them unsuitable for this analysis. Specifically, quests that include destinations that are radiant (i.e. generated randomly at runtime) and/or include collecting materials that can be found throughout the game world and are not unique.
+Any quests introduced by DLC are excluded from this set, along with miscellaneous quests which have one or more properties that make them unsuitable for this analysis. Specifically, quests that involve collecting materials that can be found throughout the game world and are not unique. These quests may be included if they are part of a larger questline and, in these cases, only the location of the quest-giver will be listed.
+
+Quests that involve radiant locations, locations that are randomly selected when the quest is given, will be considered on a case-by-case basis. If the radiant locations for the quest are finite in number (and reasonable to enumerate), then every enumeration of the quest with radiant locations will be included and labeled as follows:
+
+>{Quest Name} (Radiant *n*/*m*)
+
+where *n* = the enumeration, and *m* = the total number of enumerations (i.e. the number of radiant locations the quest is selecting from). In the graph, edges for quests with radiant locations will be weighted with 1/*m*.
