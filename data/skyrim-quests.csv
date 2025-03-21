@@ -143,3 +143,84 @@ Alteration Ritual Spell (Radiant 4/6),Master Skill Quest,Alteration Ritual Spell
 Alteration Ritual Spell (Radiant 5/6),Master Skill Quest,Alteration Ritual Spell,Valthume
 Alteration Ritual Spell (Radiant 6/6),Master Skill Quest,Alteration Ritual Spell,Volskygge
 Destruction Ritual Spell,Master Skill Quest,Good Intentions,College of Winterhold.Windward Ruins.North Skybound Watch.Four Skull Lookout
+Innocence Lost,Dark Brotherhood,none,Windhelm.Riften
+With Friends Like These,Dark Brotherhood,Innocence Lost,Abandoned Shack.Dark Brotherhood Sanctuary
+Destroy the Dark Brotherhood!,Dark Brotherhood,With Friends Like These,Abandoned Shack.Dragon Bridge.Dark Brotherhood Sanctuary
+Sanctuary,Dark Brotherhood,With Friends Like These,Dark Brotherhood Sanctuary
+Kill Narfi,Dark Brotherhood,Sanctuary,Dark Brotherhood Sanctuary.Ivarstead
+Kill Beitild,Dark Brotherhood,Sanctuary,Dark Brotherhood Sanctuary.Dawnstar
+Kill Ennodius Papius,Dark Brotherhood,Sanctuary,Dark Brotherhood Sanctuary.Anga's Mill
+Mourning Never Comes,Dark Brotherhood,Sanctuary,Dark Brotherhood Sanctuary.Markarth.Windhelm.Raldbthar
+Whispers in the Dark,Dark Brotherhood,Mourning Never Comes,Dark Brotherhood Sanctuary
+Kill Hern,Dark Brotherhood,Whispers in the Dark,Dark Brotherhood Sanctuary.Half-Moon Mill
+Kill Lurbuk,Dark Brotherhood,Whispers in the Dark,Dark Brotherhood Sanctuary.Morthal
+The Silence Has Been Broken,Dark Brotherhood,Whispers in the Dark,Dark Brotherhood Sanctuary.Volunruud
+Bound Until Death,Dark Brotherhood,The Silence Has Been Broken,Dark Brotherhood Sanctuary.Solitude
+Kill Deekus,Side Quest,Bound Until Death,Dark Brotherhood Sanctuary.Hela's Folly
+Kill Ma'randru-jo,Side Quest,Bound Until Death,Dark Brotherhood Sanctuary
+Kill Anoriath,Side Quest,Bound Until Death,Dark Brotherhood Sanctuary.Whiterun
+Kill Agnis,Side Quest,Bound Until Death,Dark Brotherhood Sanctuary.Fort Greymoor
+Kill Maluril,Side Quest,Kill Agnis,Dark Brotherhood Sanctuary.Mzinchaleft
+Kill Helvard,Side Quest,Kill Agnis,Dark Brotherhood Sanctuary.Falkreath
+Kill Safia,Side Quest,Kill Agnis,Dark Brotherhood Sanctuary.East Empire Company Warehouse
+Breaching Security,Dark Brotherhood,Bound Until Death,Dark Brotherhood Sanctuary.Dragon Bridge
+Locate the Assassin of Old,Dark Brotherhood,Breaching Security,Whiterun.Deepwood Redoubt.Hag's End
+The Cure for Madness,Dark Brotherhood,Breaching Security,Dark Brotherhood Sanctuary.Dawnstar Sanctuary
+Recipe for Disaster,Dark Brotherhood,The Cure for Madness,Dark Brotherhood Sanctuary.Markarth.Nightgate Inn
+To Kill an Empire,Dark Brotherhood,Recipe for Disaster,Dark Brotherhood Sanctuary.Solitude
+Death Incarnate,Dark Brotherhood,To Kill an Empire,Dark Brotherhood Sanctuary
+Hail Sithis!,Dark Brotherhood,Death Incarnate,Whiterun.Solitude.The Katariah.Dawnstar Sanctuary
+Where You Hang Your Enemy's Head,Dark Brotherhood,Hail Sithis!,Dawnstar Sanctuary.The Ragged Flagon
+Take Up Arms,Companions,none,Whiterun.Pelagia Farm
+Proving Honor,Companions,Take Up Arms,Whiterun.Dustman's Cairn
+The Silver Hand,Companions,Proving Honor,Whiterun.Gallows Rock
+Striking the Heart,Companions,The Silver Hand,Whiterun
+Striking the Heart (radiant 1/10),Companions,Striking the Heart,Cragslane Cavern
+Striking the Heart (radiant 2/10),Companions,Striking the Heart,Gallows Rock
+Striking the Heart (radiant 3/10),Companions,Striking the Heart,Lost Knife Hideout
+Striking the Heart (radiant 4/10),Companions,Striking the Heart,Orotheim
+Striking the Heart (radiant 5/10),Companions,Striking the Heart,Broken Helm Hollow
+Striking the Heart (radiant 6/10),Companions,Striking the Heart,Faldar's Tooth
+Striking the Heart (radiant 7/10),Companions,Striking the Heart,Treva's Watch
+Striking the Heart (radiant 8/10),Companions,Striking the Heart,Redoran's Retreat
+Striking the Heart (radiant 9/10),Companions,Striking the Heart,Valtheim Keep
+Striking the Heart (radiant 10/10),Companions,Striking the Heart,Fort Fellhammer
+Retrieval,Companions,The Silver Hand,Whiterun
+Retrieval (radiant 1/11),Companions,Retrieval,Cragslane Cavern
+Retrieval (radiant 2/11),Companions,Retrieval,Gallows Rock
+Retrieval (radiant 3/11),Companions,Retrieval,Lost Knife Hideout
+Retrieval (radiant 4/11),Companions,Retrieval,Orotheim
+Retrieval (radiant 5/11),Companions,Retrieval,Broken Helm Hollow
+Retrieval (radiant 6/11),Companions,Retrieval,Faldar's Tooth
+Retrieval (radiant 7/11),Companions,Retrieval,Treva's Watch
+Retrieval (radiant 8/11),Companions,Retrieval,Redoran's Retreat
+Retrieval (radiant 9/11),Companions,Retrieval,Valtheim Keep
+Retrieval (radiant 10/11),Companions,Retrieval,Fort Fellhammer
+Retrieval (radiant 11/11),Companions,Retrieval,Swindler's Den
+Stealing Plans,Companions,The Silver Hand,Whiterun
+Stealing Plans (radiant 1/11),Companions,Stealing Plans,Cragslane Cavern
+Stealing Plans (radiant 2/11),Companions,Stealing Plans,Gallows Rock
+Stealing Plans (radiant 3/11),Companions,Stealing Plans,Lost Knife Hideout
+Stealing Plans (radiant 4/11),Companions,Stealing Plans,Orotheim
+Stealing Plans (radiant 5/11),Companions,Stealing Plans,Broken Helm Hollow
+Stealing Plans (radiant 6/11),Companions,Stealing Plans,Faldar's Tooth
+Stealing Plans (radiant 7/11),Companions,Stealing Plans,Treva's Watch
+Stealing Plans (radiant 8/11),Companions,Stealing Plans,Redoran's Retreat
+Stealing Plans (radiant 9/11),Companions,Stealing Plans,Valtheim Keep
+Stealing Plans (radiant 10/11),Companions,Stealing Plans,Fort Fellhammer
+Stealing Plans (radiant 11/11),Companions,Stealing Plans,Swindler's Den
+Blood's Honor,Companions,The Silver Hand,Whiterun.Glenmoril Coven
+Purity of Revenge,Companions,Blood's Honor,Whiterun.Driftshade Refuge
+Glory of the Dead,Companions,Purity of Revenge,Whiterun.Ysgramor's Tomb
+Purity,Companions,Glory of the Dead,Whiterun.Ysgramor's Tomb
+Dragon Seekers,Companions,Glory of the Dead.Dragon Rising,Whiterun
+Dragon Seekers (radiant 1/10),Companions,Dragon Seekers,Bonestrewn Crest
+Dragon Seekers (radiant 2/10),Companions,Dragon Seekers,Ancient's Ascent
+Dragon Seekers (radiant 3/10),Companions,Dragon Seekers,Eldersblood Peak
+Dragon Seekers (radiant 4/10),Companions,Dragon Seekers,Skyborn Altar
+Dragon Seekers (radiant 5/10),Companions,Dragon Seekers,Shearpoint
+Dragon Seekers (radiant 6/10),Companions,Dragon Seekers,Dragontooth Crater
+Dragon Seekers (radiant 7/10),Companions,Dragon Seekers,Autumnwatch Tower
+Dragon Seekers (radiant 8/10),Companions,Dragon Seekers,Lost Tongue Overlook
+Dragon Seekers (radiant 9/10),Companions,Dragon Seekers,Northwind Summit
+Dragon Seekers (radiant 10/10),Companions,Dragon Seekers,Mount Anthor
