@@ -238,3 +238,104 @@ The Battle for Fort Sungard (Imperial),Imperial Legion,The Battle for Fort Snowh
 The Battle for Fort Neugrad (Imperial),Imperial Legion,The Battle for Fort Sungard (Imperial),Falkreath Imperial Camp.Fort Neugrad
 The Battle for Fort Amol (Imperial),Imperial Legion,The Battle for Fort Neugrad (Imperial),Eastmarch Imperial Camp.Fort Amol
 Battle for Windhelm,Imperial Legion,The Battle for Fort Amol (Imperial),Eastmarch Imperial Camp.Windhelm
+Joining the Stormcloaks,Stormcloaks,none,Windhelm.The Serpent Stone
+The Jagged Crown (Stormcloaks),Stormcloaks,Joining the Stormcloaks,Windhelm.Korvanjund
+Message to Whiterun (Stormcloaks),Stormcloaks,The Jagged Crown (Stormcloaks),Whiterun.Windhelm
+Battle for Whiterun (Stormcloaks),Stormcloaks,Message to Whiterun (Stormcloaks),Windhelm.Whiterun
+Rescue from Fort Neugrad (Stormcloaks),Stormcloaks,Battle for Whiterun (Stormcloaks),Falkreath Stormcloak Camp.Fort Neugrad
+Compelling Tribute (Stormcloaks),Stormcloaks,Rescue from Fort Neugrad (Stormcloaks),Markarth.Reach Stormcloak Camp
+The Battle for Fort Sungard (Stormcloaks),Stormcloaks,Compelling Tribute (Stormcloaks),Fort Sungard
+A False Front (Stormcloaks),Stormcloaks,The Battle for Fort Sungard (Stormcloaks),Rorikstead.Morthal.Dragon Bridge
+The Battle for Fort Snowhawk (Stormcloaks),Stormcloaks,A False Front (Stormcloaks),Hjaalmarch Stormcloak Camp.Fort Snowhawk
+The Battle for Fort Hraggstad (Stormcloaks),Stormcloaks,The Battle for Fort Snowhawk (Stormcloaks),Fort Hraggstad.Haafingar Stormcloak Camp
+Battle for Solitude (Stormcloaks),Stormcloaks,The Battle for Fort Hraggstad (Stormcloaks),Solitude
+Battle for Fort Dunstad (Stormcloaks),Stormcloaks,The Battle for Fort Snowhawk (Stormcloaks),Pale Stormcloak Camp.Fort Dunstad
+The Battle for Fort Greenwall (Stormcloaks),Stormcloaks,Battle for Fort Dunstad (Stormcloaks),Rift Stormcloak Camp.Fort Greenwall
+The Battle for Fort Kastav (Stormcloaks),Stormcloaks,The Battle for Fort Greenwall (Stormcloaks),Winterhold Stormcloak Camp.Fort Kastav
+A Chance Arrangement,Thieves Guild,none,Riften
+Taking Care of Business,Thieves Guild,A Chance Arrangement,Riften.Thieves Guild
+Loud and Clear,Thieves Guild,Taking Care of Business,Thieves Guild.Goldenglow Estate
+Dampened Spirits,Thieves Guild,Loud and Clear,Thieves Guild.The Bannered Mare.Honningbrew Meadery
+Scoundrel's Folly,Thieves Guild,Dampened Spirits,Thieves Guild.East Empire Company Warehouse.Solitude
+Speaking With Silence,Thieves Guild,Scoundrel's Folly,Snow Veil Sanctum
+Hard Answers,Thieves Guild,Speaking With Silence,Understone Keep
+The Pursuit,Thieves Guild,Hard Answers,Riften
+Trinity Restored,Thieves Guild,The Pursuit,Nightingale Hall
+Blindsighted,Thieves Guild,Trinity Restored,Irkngthand
+Darkness Returns,Thieves Guild,Blindsighted,Twilight Sepulcher
+Under New Management,Thieves Guild,Darkness Returns.Imitation Amnesty.Silver Lining.Summerset Shadows.The Dainty Sload,Thieves Guild
+Delvin's Jobs,Thieves Guild,Taking Care of Business,Thieves Guild
+Delvin's Jobs (radiant 1/5),Thieves Guild,Delvin's Jobs,Markarth
+Delvin's Jobs (radiant 2/5),Thieves Guild,Delvin's Jobs,Riften
+Delvin's Jobs (radiant 3/5),Thieves Guild,Delvin's Jobs,Solitude
+Delvin's Jobs (radiant 4/5),Thieves Guild,Delvin's Jobs,Whiterun
+Delvin's Jobs (radiant 5/5),Thieves Guild,Delvin's Jobs,Windhelm
+Imitation Amnesty,Thieves Guild,Delvin's Jobs,Thieves Guild.Whiterun
+Silver Lining,Thieves Guild,Delvin's Jobs,Thieves Guild.Silver-Blood Inn.Pinewatch
+Summerset Shadows,Thieves Guild,Delvin's Jobs,Thieves Guild.Uttering Hills Cave
+The Dainty Sload,Thieves Guild,Delvin's Jobs,Thieves Guild.Solitude.Dainty Sload
+Toying With The Dead,Thieves Guild,Taking Care of Business,Thieves Guild.Yngvild
+Vex's Jobs,Thieves Guild,Taking Care of Business,Thieves Guild
+Vex's Jobs (radiant 1/5),Thieves Guild,Vex's Jobs,Markarth
+Vex's Jobs (radiant 2/5),Thieves Guild,Vex's Jobs,Riften
+Vex's Jobs (radiant 3/5),Thieves Guild,Vex's Jobs,Solitude
+Vex's Jobs (radiant 4/5),Thieves Guild,Vex's Jobs,Whiterun
+Vex's Jobs (radiant 5/5),Thieves Guild,Vex's Jobs,Windhelm
+The Black Star,Daedric,none,Shrine of Azura.Ilinalta's Deep.Winterhold
+Boethiah's Calling,Daedric,none,Sacellum of Boethiah.Knifepoint Ridge
+A Daedra's Best Friend,Daedric,none,Falkreath.Haemar's Shame.Rimerock Burrow
+Discerning the Transmundane,Daedric,none,Septimus Signus's Outpost.Alftand.Blackreach.Tower of Mzark
+Ill Met By Moonlight,Daedric,none,Falkreath.Bloated Man's Grotto
+The Cursed Tribe,Daedric,none,Largashbur.Fallowstone Cave.Giant's Grove
+Pieces of the Past,Daedric,none,Dawnstar.Dead Crone Rock.Cracked Tusk Keep.Shrine of Mehrunes Dagon
+The Whispering Door,Daedric,none,Whiterun.Dragonsreach
+The Break of Dawn,Daedric,none,Statue to Meridia.Kilkreath Ruins
+The House of Horrors,Daedric,none,Markarth
+The House of Horrors (radiant 1/6),Daedric,The House of Horrors,Broken Tower Redoubt
+The House of Horrors (radiant 2/6),Daedric,The House of Horrors,Bruca's Leap Redoubt
+The House of Horrors (radiant 3/6),Daedric,The House of Horrors,Deepwood Redoubt
+The House of Horrors (radiant 4/6),Daedric,The House of Horrors,Druadach Redoubt
+The House of Horrors (radiant 5/6),Daedric,The House of Horrors,Hag Rock Redoubt
+The House of Horrors (radiant 6/6),Daedric,The House of Horrors,Red Eagle Redoubt
+The Taste of Death,Daedric,none,Markarth.Reachcliff Cave
+The Only Cure,Daedric,none,Shrine to Peryite.Bthardamz
+A Night To Remember,Daedric,none,Markarth.Rorikstead.Whiterun.Morvunskar
+The Mind of Madness,Daedric,none,Solitude.Blue Palace
+Waking Nightmare,Daedric,none,Dawnstar.Nightcaller Temple
+The Forsworn Conspiracy,Side Quest,none,Markarth
+No One Escapes Cidhna Mine,Side Quest,The Forsworn Conspiracy,Markarth
+The Lost Expedition,Side Quest,none,Understone Keep
+The Heart of Dibella,Side Quest,none,Markarth.Broken Tower Redoubt.Karthwasten
+Laid to Rest,Side Quest,none,Morthal.Movarth's Lair
+Promises to Keep,Side Quest,none,Riften.Black Briar Lodge
+The Book of Love,Side Quest,none,Riften.Ivarstead.Understone Keep.Gjukar's Monument
+Unfathomable Depths,Side Quest,none,Riften.Avanchnzel
+Lights Out!,Side Quest,none,Solitude.Solitude Lighthouse.Wreck of the Icerunner.Broken Oar Grotto
+Tending the Flames,Side Quest,none,Solitude.Dead Men's Respite.Blue Palace
+Finn's Lute,Side Quest,Tending the Flames,Solitude.Stony Creek Cave
+Pantea's Flute,Side Quest,Tending the Flames,Solitude.Hob's Fall Cave
+Rjorn's Drum,Side Quest,Tending the Flames,Solitude.Halldir's Cairn
+The Man Who Cried Wolf,Side Quest,none,Wolfskull Cave.Solitude
+The Wolf Queen Awakened,Side Quest,The Man Who Cried Wolf,Solitude.Blue Palace.Potema's Catacombs
+Elisif's Tribute,Side Quest,The Man Who Cried Wolf,Blue Palace.Shrine of Talos
+In My Time Of Need,Side Quest,Dragon Rising,Swindler's Den.Dragonsreach.Whiterun
+Missing In Action,Side Quest,none,Whiterun.Northwatch Keep
+The Blessings of Nature,Side Quest,none,Whiterun.Orphan Rock.Eldergleam Sanctuary
+Blood on the Ice,Side Quest,none,Windhelm
+Rise in the East,Side Quest,none,Windhelm.Dawnstar.Japhet's Folly
+Kyne's Sacred Trials,Side Quest,none,Froki's Shack.Broken Fang Cave.Windward Ruins.The Guardian Stones.Knifepoint Ridge.Loreius Farm.Bleakcoast Cave.Graywinter Watch
+Extracting an Argonian,Side Quest,none,Darkwater Crossing.Darkwater Pass
+Dark Ancestor,Side Quest,none,Falkreath.Bloodlet Throne
+Kill the Vampire,Side Quest,none,Blue Palace.Pinemoon Cave
+Payment Delivery,Side Quest,none,Stonehills.Solitude
+For the Good of Morthal,Side Quest,none,Morthal.Solitude
+Gharol's Message,Side Quest,none,Dushnikh Yal.Karthwasten
+Kolskeggr Mine (quest),Side Quest,none,Left Hand Mine.Kolskeggr Mine
+Rogatus's Letter,Side Quest,none,Salvius Farmhouse.Old Hroldan Inn
+Skilled Apprenticeship,Side Quest,none,Markarth.Fort Sungard
+Bow to the Master,Side Quest,none,Merryfair Farm.Riften
+Flight or Fight,Side Quest,none,Heartwood Mill.Broken Helm Hollow
+Climb the Steps,Side Quest,none,Ivarstead.High Hrothgar
+Lifting the Shroud,Side Quest,none,Ivarstead.Shroud Hearth Barrow
+,Side Quest,none,
+,Side Quest,none,
