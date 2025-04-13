@@ -28,6 +28,7 @@ The questlines included are:
 - Daedric Quest(s)
 - Side Quest(s)
     - radiant quest The Words of Power is excluded due to its large number of possible locations (31 total)
+    - radiant bounty quests, which can be given by any inkeeper NPC, jarl NPC, or steward NPC or a hold, are also excluded due to the large number of possible locations
 
 
 
