@@ -135,14 +135,14 @@ Onmund's Request (Radiant 20/23),Side Quest,Onmund's Request,Broken Fang Cave
 Onmund's Request (Radiant 21/23),Side Quest,Onmund's Request,Fellglow Keep
 Onmund's Request (Radiant 22/23),Side Quest,Onmund's Request,Hob's Fall Cave
 Onmund's Request (Radiant 23/23),Side Quest,Onmund's Request,Yngvild
-Alteration Ritual Spell,Master Skill Quest,Good Intentions,College of Winterhold
-Alteration Ritual Spell (Radiant 1/6),Master Skill Quest,Alteration Ritual Spell,Forelhost
-Alteration Ritual Spell (Radiant 2/6),Master Skill Quest,Alteration Ritual Spell,High Gate Ruins
-Alteration Ritual Spell (Radiant 3/6),Master Skill Quest,Alteration Ritual Spell,Lost Valkygg
-Alteration Ritual Spell (Radiant 4/6),Master Skill Quest,Alteration Ritual Spell,Ragnvald
-Alteration Ritual Spell (Radiant 5/6),Master Skill Quest,Alteration Ritual Spell,Valthume
-Alteration Ritual Spell (Radiant 6/6),Master Skill Quest,Alteration Ritual Spell,Volskygge
-Destruction Ritual Spell,Master Skill Quest,Good Intentions,College of Winterhold.Windward Ruins.North Skybound Watch.Four Skull Lookout
+Alteration Ritual Spell,Side Quest,Good Intentions,College of Winterhold
+Alteration Ritual Spell (Radiant 1/6),Side Quest,Alteration Ritual Spell,Forelhost
+Alteration Ritual Spell (Radiant 2/6),Side Quest,Alteration Ritual Spell,High Gate Ruins
+Alteration Ritual Spell (Radiant 3/6),Side Quest,Alteration Ritual Spell,Lost Valkygg
+Alteration Ritual Spell (Radiant 4/6),Side Quest,Alteration Ritual Spell,Ragnvald
+Alteration Ritual Spell (Radiant 5/6),Side Quest,Alteration Ritual Spell,Valthume
+Alteration Ritual Spell (Radiant 6/6),Side Quest,Alteration Ritual Spell,Volskygge
+Destruction Ritual Spell,Side Quest,Good Intentions,College of Winterhold.Windward Ruins.North Skybound Watch.Four Skull Lookout
 Innocence Lost,Dark Brotherhood,none,Windhelm.Riften
 With Friends Like These,Dark Brotherhood,Innocence Lost,Abandoned Shack.Dark Brotherhood Sanctuary
 Destroy the Dark Brotherhood!,Dark Brotherhood,With Friends Like These,Abandoned Shack.Dragon Bridge.Dark Brotherhood Sanctuary
@@ -175,55 +175,55 @@ Take Up Arms,Companions,none,Whiterun.Pelagia Farm
 Proving Honor,Companions,Take Up Arms,Whiterun.Dustman's Cairn
 The Silver Hand,Companions,Proving Honor,Whiterun.Gallows Rock
 Striking the Heart,Companions,The Silver Hand,Whiterun
-Striking the Heart (radiant 1/10),Companions,Striking the Heart,Cragslane Cavern
-Striking the Heart (radiant 2/10),Companions,Striking the Heart,Gallows Rock
-Striking the Heart (radiant 3/10),Companions,Striking the Heart,Lost Knife Hideout
-Striking the Heart (radiant 4/10),Companions,Striking the Heart,Orotheim
-Striking the Heart (radiant 5/10),Companions,Striking the Heart,Broken Helm Hollow
-Striking the Heart (radiant 6/10),Companions,Striking the Heart,Faldar's Tooth
-Striking the Heart (radiant 7/10),Companions,Striking the Heart,Treva's Watch
-Striking the Heart (radiant 8/10),Companions,Striking the Heart,Redoran's Retreat
-Striking the Heart (radiant 9/10),Companions,Striking the Heart,Valtheim Keep
-Striking the Heart (radiant 10/10),Companions,Striking the Heart,Fort Fellhammer
+Striking the Heart (Radiant 1/10),Companions,Striking the Heart,Cragslane Cavern
+Striking the Heart (Radiant 2/10),Companions,Striking the Heart,Gallows Rock
+Striking the Heart (Radiant 3/10),Companions,Striking the Heart,Lost Knife Hideout
+Striking the Heart (Radiant 4/10),Companions,Striking the Heart,Orotheim
+Striking the Heart (Radiant 5/10),Companions,Striking the Heart,Broken Helm Hollow
+Striking the Heart (Radiant 6/10),Companions,Striking the Heart,Faldar's Tooth
+Striking the Heart (Radiant 7/10),Companions,Striking the Heart,Treva's Watch
+Striking the Heart (Radiant 8/10),Companions,Striking the Heart,Redoran's Retreat
+Striking the Heart (Radiant 9/10),Companions,Striking the Heart,Valtheim Keep
+Striking the Heart (Radiant 10/10),Companions,Striking the Heart,Fort Fellhammer
 Retrieval,Companions,The Silver Hand,Whiterun
-Retrieval (radiant 1/11),Companions,Retrieval,Cragslane Cavern
-Retrieval (radiant 2/11),Companions,Retrieval,Gallows Rock
-Retrieval (radiant 3/11),Companions,Retrieval,Lost Knife Hideout
-Retrieval (radiant 4/11),Companions,Retrieval,Orotheim
-Retrieval (radiant 5/11),Companions,Retrieval,Broken Helm Hollow
-Retrieval (radiant 6/11),Companions,Retrieval,Faldar's Tooth
-Retrieval (radiant 7/11),Companions,Retrieval,Treva's Watch
-Retrieval (radiant 8/11),Companions,Retrieval,Redoran's Retreat
-Retrieval (radiant 9/11),Companions,Retrieval,Valtheim Keep
-Retrieval (radiant 10/11),Companions,Retrieval,Fort Fellhammer
-Retrieval (radiant 11/11),Companions,Retrieval,Swindler's Den
+Retrieval (Radiant 1/11),Companions,Retrieval,Cragslane Cavern
+Retrieval (Radiant 2/11),Companions,Retrieval,Gallows Rock
+Retrieval (Radiant 3/11),Companions,Retrieval,Lost Knife Hideout
+Retrieval (Radiant 4/11),Companions,Retrieval,Orotheim
+Retrieval (Radiant 5/11),Companions,Retrieval,Broken Helm Hollow
+Retrieval (Radiant 6/11),Companions,Retrieval,Faldar's Tooth
+Retrieval (Radiant 7/11),Companions,Retrieval,Treva's Watch
+Retrieval (Radiant 8/11),Companions,Retrieval,Redoran's Retreat
+Retrieval (Radiant 9/11),Companions,Retrieval,Valtheim Keep
+Retrieval (Radiant 10/11),Companions,Retrieval,Fort Fellhammer
+Retrieval (Radiant 11/11),Companions,Retrieval,Swindler's Den
 Stealing Plans,Companions,The Silver Hand,Whiterun
-Stealing Plans (radiant 1/11),Companions,Stealing Plans,Cragslane Cavern
-Stealing Plans (radiant 2/11),Companions,Stealing Plans,Gallows Rock
-Stealing Plans (radiant 3/11),Companions,Stealing Plans,Lost Knife Hideout
-Stealing Plans (radiant 4/11),Companions,Stealing Plans,Orotheim
-Stealing Plans (radiant 5/11),Companions,Stealing Plans,Broken Helm Hollow
-Stealing Plans (radiant 6/11),Companions,Stealing Plans,Faldar's Tooth
-Stealing Plans (radiant 7/11),Companions,Stealing Plans,Treva's Watch
-Stealing Plans (radiant 8/11),Companions,Stealing Plans,Redoran's Retreat
-Stealing Plans (radiant 9/11),Companions,Stealing Plans,Valtheim Keep
-Stealing Plans (radiant 10/11),Companions,Stealing Plans,Fort Fellhammer
-Stealing Plans (radiant 11/11),Companions,Stealing Plans,Swindler's Den
+Stealing Plans (Radiant 1/11),Companions,Stealing Plans,Cragslane Cavern
+Stealing Plans (Radiant 2/11),Companions,Stealing Plans,Gallows Rock
+Stealing Plans (Radiant 3/11),Companions,Stealing Plans,Lost Knife Hideout
+Stealing Plans (Radiant 4/11),Companions,Stealing Plans,Orotheim
+Stealing Plans (Radiant 5/11),Companions,Stealing Plans,Broken Helm Hollow
+Stealing Plans (Radiant 6/11),Companions,Stealing Plans,Faldar's Tooth
+Stealing Plans (Radiant 7/11),Companions,Stealing Plans,Treva's Watch
+Stealing Plans (Radiant 8/11),Companions,Stealing Plans,Redoran's Retreat
+Stealing Plans (Radiant 9/11),Companions,Stealing Plans,Valtheim Keep
+Stealing Plans (Radiant 10/11),Companions,Stealing Plans,Fort Fellhammer
+Stealing Plans (Radiant 11/11),Companions,Stealing Plans,Swindler's Den
 Blood's Honor,Companions,The Silver Hand,Whiterun.Glenmoril Coven
 Purity of Revenge,Companions,Blood's Honor,Whiterun.Driftshade Refuge
 Glory of the Dead,Companions,Purity of Revenge,Whiterun.Ysgramor's Tomb
 Purity,Companions,Glory of the Dead,Whiterun.Ysgramor's Tomb
 Dragon Seekers,Companions,Glory of the Dead.Dragon Rising,Whiterun
-Dragon Seekers (radiant 1/10),Companions,Dragon Seekers,Bonestrewn Crest
-Dragon Seekers (radiant 2/10),Companions,Dragon Seekers,Ancient's Ascent
-Dragon Seekers (radiant 3/10),Companions,Dragon Seekers,Eldersblood Peak
-Dragon Seekers (radiant 4/10),Companions,Dragon Seekers,Skyborn Altar
-Dragon Seekers (radiant 5/10),Companions,Dragon Seekers,Shearpoint
-Dragon Seekers (radiant 6/10),Companions,Dragon Seekers,Dragontooth Crater
-Dragon Seekers (radiant 7/10),Companions,Dragon Seekers,Autumnwatch Tower
-Dragon Seekers (radiant 8/10),Companions,Dragon Seekers,Lost Tongue Overlook
-Dragon Seekers (radiant 9/10),Companions,Dragon Seekers,Northwind Summit
-Dragon Seekers (radiant 10/10),Companions,Dragon Seekers,Mount Anthor
+Dragon Seekers (Radiant 1/10),Companions,Dragon Seekers,Bonestrewn Crest
+Dragon Seekers (Radiant 2/10),Companions,Dragon Seekers,Ancient's Ascent
+Dragon Seekers (Radiant 3/10),Companions,Dragon Seekers,Eldersblood Peak
+Dragon Seekers (Radiant 4/10),Companions,Dragon Seekers,Skyborn Altar
+Dragon Seekers (Radiant 5/10),Companions,Dragon Seekers,Shearpoint
+Dragon Seekers (Radiant 6/10),Companions,Dragon Seekers,Dragontooth Crater
+Dragon Seekers (Radiant 7/10),Companions,Dragon Seekers,Autumnwatch Tower
+Dragon Seekers (Radiant 8/10),Companions,Dragon Seekers,Lost Tongue Overlook
+Dragon Seekers (Radiant 9/10),Companions,Dragon Seekers,Northwind Summit
+Dragon Seekers (Radiant 10/10),Companions,Dragon Seekers,Mount Anthor
 Joining the Legion,Imperial Legion,none,Fort Hraggstad.Solitude
 The Jagged Crown (Imperial),Imperial Legion,Joining the Legion,Solitude.Korvanjund
 Message to Whiterun (Imperial),Imperial Legion,The Jagged Crown (Imperial),Solitude.Whiterun.Windhelm
@@ -265,22 +265,22 @@ Blindsighted,Thieves Guild,Trinity Restored,Irkngthand
 Darkness Returns,Thieves Guild,Blindsighted,Twilight Sepulcher
 Under New Management,Thieves Guild,Darkness Returns.Imitation Amnesty.Silver Lining.Summerset Shadows.The Dainty Sload,Thieves Guild
 Delvin's Jobs,Thieves Guild,Taking Care of Business,Thieves Guild
-Delvin's Jobs (radiant 1/5),Thieves Guild,Delvin's Jobs,Markarth
-Delvin's Jobs (radiant 2/5),Thieves Guild,Delvin's Jobs,Riften
-Delvin's Jobs (radiant 3/5),Thieves Guild,Delvin's Jobs,Solitude
-Delvin's Jobs (radiant 4/5),Thieves Guild,Delvin's Jobs,Whiterun
-Delvin's Jobs (radiant 5/5),Thieves Guild,Delvin's Jobs,Windhelm
+Delvin's Jobs (Radiant 1/5),Thieves Guild,Delvin's Jobs,Markarth
+Delvin's Jobs (Radiant 2/5),Thieves Guild,Delvin's Jobs,Riften
+Delvin's Jobs (Radiant 3/5),Thieves Guild,Delvin's Jobs,Solitude
+Delvin's Jobs (Radiant 4/5),Thieves Guild,Delvin's Jobs,Whiterun
+Delvin's Jobs (Radiant 5/5),Thieves Guild,Delvin's Jobs,Windhelm
 Imitation Amnesty,Thieves Guild,Delvin's Jobs,Thieves Guild.Whiterun
 Silver Lining,Thieves Guild,Delvin's Jobs,Thieves Guild.Silver-Blood Inn.Pinewatch
 Summerset Shadows,Thieves Guild,Delvin's Jobs,Thieves Guild.Uttering Hills Cave
 The Dainty Sload,Thieves Guild,Delvin's Jobs,Thieves Guild.Solitude.Dainty Sload
 Toying With The Dead,Thieves Guild,Taking Care of Business,Thieves Guild.Yngvild
 Vex's Jobs,Thieves Guild,Taking Care of Business,Thieves Guild
-Vex's Jobs (radiant 1/5),Thieves Guild,Vex's Jobs,Markarth
-Vex's Jobs (radiant 2/5),Thieves Guild,Vex's Jobs,Riften
-Vex's Jobs (radiant 3/5),Thieves Guild,Vex's Jobs,Solitude
-Vex's Jobs (radiant 4/5),Thieves Guild,Vex's Jobs,Whiterun
-Vex's Jobs (radiant 5/5),Thieves Guild,Vex's Jobs,Windhelm
+Vex's Jobs (Radiant 1/5),Thieves Guild,Vex's Jobs,Markarth
+Vex's Jobs (Radiant 2/5),Thieves Guild,Vex's Jobs,Riften
+Vex's Jobs (Radiant 3/5),Thieves Guild,Vex's Jobs,Solitude
+Vex's Jobs (Radiant 4/5),Thieves Guild,Vex's Jobs,Whiterun
+Vex's Jobs (Radiant 5/5),Thieves Guild,Vex's Jobs,Windhelm
 The Black Star,Daedric,none,Shrine of Azura.Ilinalta's Deep.Winterhold
 Boethiah's Calling,Daedric,none,Sacellum of Boethiah.Knifepoint Ridge
 A Daedra's Best Friend,Daedric,none,Falkreath.Haemar's Shame.Rimerock Burrow
@@ -291,12 +291,12 @@ Pieces of the Past,Daedric,none,Dawnstar.Dead Crone Rock.Cracked Tusk Keep.Shrin
 The Whispering Door,Daedric,none,Whiterun.Dragonsreach
 The Break of Dawn,Daedric,none,Statue to Meridia.Kilkreath Ruins
 The House of Horrors,Daedric,none,Markarth
-The House of Horrors (radiant 1/6),Daedric,The House of Horrors,Broken Tower Redoubt
-The House of Horrors (radiant 2/6),Daedric,The House of Horrors,Bruca's Leap Redoubt
-The House of Horrors (radiant 3/6),Daedric,The House of Horrors,Deepwood Redoubt
-The House of Horrors (radiant 4/6),Daedric,The House of Horrors,Druadach Redoubt
-The House of Horrors (radiant 5/6),Daedric,The House of Horrors,Hag Rock Redoubt
-The House of Horrors (radiant 6/6),Daedric,The House of Horrors,Red Eagle Redoubt
+The House of Horrors (Radiant 1/6),Daedric,The House of Horrors,Broken Tower Redoubt
+The House of Horrors (Radiant 2/6),Daedric,The House of Horrors,Bruca's Leap Redoubt
+The House of Horrors (Radiant 3/6),Daedric,The House of Horrors,Deepwood Redoubt
+The House of Horrors (Radiant 4/6),Daedric,The House of Horrors,Druadach Redoubt
+The House of Horrors (Radiant 5/6),Daedric,The House of Horrors,Hag Rock Redoubt
+The House of Horrors (Radiant 6/6),Daedric,The House of Horrors,Red Eagle Redoubt
 The Taste of Death,Daedric,none,Markarth.Reachcliff Cave
 The Only Cure,Daedric,none,Shrine to Peryite.Bthardamz
 A Night To Remember,Daedric,none,Markarth.Rorikstead.Whiterun.Morvunskar
@@ -337,5 +337,170 @@ Bow to the Master,Side Quest,none,Merryfair Farm.Riften
 Flight or Fight,Side Quest,none,Heartwood Mill.Broken Helm Hollow
 Climb the Steps,Side Quest,none,Ivarstead.High Hrothgar
 Lifting the Shroud,Side Quest,none,Ivarstead.Shroud Hearth Barrow
-,Side Quest,none,
+Pilgrimage,Side Quest,none,Riften.Whiterun
+Special Delivery (Bolli),Side Quest,none,Riften.Markarth
+Distant Memories,Side Quest,none,Riften.Wreck of The Pride of Tel Vos
+Truth Ore Consequences,Side Quest,none,Riften.Shor's Stone
+Supply and Demand,Side Quest,none,Riften.Cragslane Cavern
+Grimsever's Return,Side Quest,none,Riften.Mzinchaleft
+Under the Table,Side Quest,none,Riften.Ivarstead
+The Lover's Requital,Side Quest,none,Riften.Ivarstead
+Hunt and Gather,Side Quest,none,Mistveil Keep.Ivarstead.Windhelm.Winterhold
+Mine or Yours,Side Quest,none,Shor's Stone.Redbelly Mine
+Special Delivery (Sylgja),Side Quest,none,Shor's Stone.Darkwater Crossing
+Delivery (Adonato Leotelli),Side Quest,none,Windhelm.Solitude
+Delivery (Aeri),Side Quest,none,Anga's Mill.Dawnstar
+Delivery (Banning),Side Quest,none,Markarth Stables.Understone Keep
+Delivery (Idgrod the Younger),Side Quest,none,Morthal.Whiterun
+Delivery (Sondas Drenim),Side Quest,none,Goldenrock Mine.Windhelm
+Harsh Master,Side Quest,none,Windhelm
+Harsh Master (Radiant 1/6),Side Quest,Harsh Master,Cragslane Cavern
+Harsh Master (Radiant 2/6),Side Quest,Harsh Master,Gallows Rock
+Harsh Master (Radiant 3/6),Side Quest,Harsh Master,Lost Knife Hideout
+Harsh Master (Radiant 4/6),Side Quest,Harsh Master,Stony Creek Cave
+Harsh Master (Radiant 5/6),Side Quest,Harsh Master,Traitor's Post
+Harsh Master (Radiant 6/6),Side Quest,Harsh Master,Uttering Hills Camp
+The Ghost of Old Hroldan,Side Quest,none,Old Hroldan Inn
+The Ghost of Old Hroldan (Radiant 1/8),Side Quest,The Ghost of Old Hroldan,Broken Tower Redoubt
+The Ghost of Old Hroldan (Radiant 2/8),Side Quest,The Ghost of Old Hroldan,Bruca's Leap Redoubt
+The Ghost of Old Hroldan (Radiant 3/8),Side Quest,The Ghost of Old Hroldan,Deepwood Redoubt
+The Ghost of Old Hroldan (Radiant 4/8),Side Quest,The Ghost of Old Hroldan,Dragon Bridge Overlook
+The Ghost of Old Hroldan (Radiant 5/8),Side Quest,The Ghost of Old Hroldan,Druadach Redoubt
+The Ghost of Old Hroldan (Radiant 6/8),Side Quest,The Ghost of Old Hroldan,Hag Rock Redoubt
+The Ghost of Old Hroldan (Radiant 7/8),Side Quest,The Ghost of Old Hroldan,Red Eagle Redoubt
+The Ghost of Old Hroldan (Radiant 8/8),Side Quest,The Ghost of Old Hroldan,Serpent's Bluff Redoubt
+Lisbet's Missing Shipment,Side Quest,none,Markarth
+Lisbet's Missing Shipment (Radiant 1/8),Side Quest,Lisbet's Missing Shipment,Broken Tower Redoubt
+Lisbet's Missing Shipment (Radiant 2/8),Side Quest,Lisbet's Missing Shipment,Bruca's Leap Redoubt
+Lisbet's Missing Shipment (Radiant 3/8),Side Quest,Lisbet's Missing Shipment,Deepwood Redoubt
+Lisbet's Missing Shipment (Radiant 4/8),Side Quest,Lisbet's Missing Shipment,Dragon Bridge Overlook
+Lisbet's Missing Shipment (Radiant 5/8),Side Quest,Lisbet's Missing Shipment,Druadach Redoubt
+Lisbet's Missing Shipment (Radiant 6/8),Side Quest,Lisbet's Missing Shipment,Hag Rock Redoubt
+Lisbet's Missing Shipment (Radiant 7/8),Side Quest,Lisbet's Missing Shipment,Red Eagle Redoubt
+Lisbet's Missing Shipment (Radiant 8/8),Side Quest,Lisbet's Missing Shipment,Serpent's Bluff Redoubt
+The Forgemaster's Fingers (Dushnikh Yal),Side Quest,none,Dushnikh Yal
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 1/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Broken Tower Redoubt
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 2/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Bruca's Leap Redoubt
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 3/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Deepwood Redoubt
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 4/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Dragontooth Crater
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 5/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Druadach Redoubt
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 6/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Dustman's Cairn
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 7/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Hag Rock Redoubt
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 8/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Harmugstahl
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 9/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Rebel's Cairn
+The Forgemaster's Fingers (Dushnikh Yal) (Radiant 10/10),Side Quest,The Forgemaster's Fingers (Dushnikh Yal),Red Eagle Redoubt
+The Forgemaster's Fingers (Mor Khazgur),Side Quest,none,Mor Khazgur
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 1/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Broken Tower Redoubt
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 2/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Bruca's Leap Redoubt
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 3/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Deepwood Redoubt
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 4/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Dragontooth Crater
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 5/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Druadach Redoubt
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 6/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Dustman's Cairn
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 7/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Hag Rock Redoubt
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 8/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Harmugstahl
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 9/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Rebel's Cairn
+The Forgemaster's Fingers (Mor Khazgur) (Radiant 10/10),Side Quest,The Forgemaster's Fingers (Mor Khazgur),Red Eagle Redoubt
+The Forgemaster's Fingers (Narzulbur),Side Quest,none,Narzulbur
+The Forgemaster's Fingers (Narzulbur) (Radiant 1/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Ansilvund
+The Forgemaster's Fingers (Narzulbur) (Radiant 2/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Cragslane Cavern
+The Forgemaster's Fingers (Narzulbur) (Radiant 3/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Cragwallow Slope
+The Forgemaster's Fingers (Narzulbur) (Radiant 4/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Cronvangr Hall
+The Forgemaster's Fingers (Narzulbur) (Radiant 5/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Gallows Rock
+The Forgemaster's Fingers (Narzulbur) (Radiant 6/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Lost Knife Hideout
+The Forgemaster's Fingers (Narzulbur) (Radiant 7/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Morvunskar 
+The Forgemaster's Fingers (Narzulbur) (Radiant 8/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Stony Creek Cave
+The Forgemaster's Fingers (Narzulbur) (Radiant 9/9),Side Quest,The Forgemaster's Fingers (Narzulbur),Uttering Hills Cave
+Dungeon Delving (Frida),Side Quest,none,Dawnstar
+Dungeon Delving (Frida) (Radiant 1/3),Side Quest,Dungeon Delving (Frida),Forsaken Cave
+Dungeon Delving (Frida) (Radiant 2/3),Side Quest,Dungeon Delving (Frida),Hillgrund's Tomb
+Dungeon Delving (Frida) (Radiant 3/3),Side Quest,Dungeon Delving (Frida),Shrouded Grove
+Dungeon Delving (Noster Eagle-Eye),Side Quest,none,Solitude
+Dungeon Delving (Noster Eagle-Eye) (Radiant 1/3),Side Quest,Dungeon Delving (Noster Eagle-Eye),Broken Oar Grotto
+Dungeon Delving (Noster Eagle-Eye) (Radiant 2/3),Side Quest,Dungeon Delving (Noster Eagle-Eye),Shadowgreen Cavern
+Dungeon Delving (Noster Eagle-Eye) (Radiant 3/3),Side Quest,Dungeon Delving (Noster Eagle-Eye),Steepfall Burrow
+Dungeon Delving (Oengul War-Anvil),Side Quest,none,Windhelm
+Dungeon Delving (Oengul War-Anvil) (Radiant 1/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Ansilvund
+Dungeon Delving (Oengul War-Anvil) (Radiant 2/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Cragwallow Slope
+Dungeon Delving (Oengul War-Anvil) (Radiant 3/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Cronvangr Cave
+Dungeon Delving (Oengul War-Anvil) (Radiant 4/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Lost Knife Hideout
+Dungeon Delving (Oengul War-Anvil) (Radiant 5/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Stony Creek Cave
+Dungeon Delving (Oengul War-Anvil) (Radiant 6/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Uttering Hills Camp
+Dungeon Delving (Roggi Knot-Beard),Side Quest,none,Eastmarch
+Dungeon Delving (Roggi Knot-Beard) (Radiant 1/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Ansilvund
+Dungeon Delving (Roggi Knot-Beard) (Radiant 2/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Cragwallow Slope
+Dungeon Delving (Roggi Knot-Beard) (Radiant 3/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Cronvangr Cave
+Dungeon Delving (Roggi Knot-Beard) (Radiant 4/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Lost Knife Hideout
+Dungeon Delving (Roggi Knot-Beard) (Radiant 5/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Stony Creek Cave
+Dungeon Delving (Roggi Knot-Beard) (Radiant 6/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Uttering Hills Camp
+Dungeon Delving (Runil),Side Quest,none,Falkreath
+Dungeon Delving (Runil) (Radiant 1/9),Side Quest,Dungeon Delving (Runil),Bloated Man's Grotto
+Dungeon Delving (Runil) (Radiant 2/9),Side Quest,Dungeon Delving (Runil),Brittleshin Pass
+Dungeon Delving (Runil) (Radiant 3/9),Side Quest,Dungeon Delving (Runil),Darkshade Copse
+Dungeon Delving (Runil) (Radiant 4/9),Side Quest,Dungeon Delving (Runil),Embershard
+Dungeon Delving (Runil) (Radiant 5/9),Side Quest,Dungeon Delving (Runil),Greywater Gorge
+Dungeon Delving (Runil) (Radiant 6/9),Side Quest,Dungeon Delving (Runil),Halldir's Cairn
+Dungeon Delving (Runil) (Radiant 7/9),Side Quest,Dungeon Delving (Runil),Moss Mother Cavern
+Dungeon Delving (Runil) (Radiant 8/9),Side Quest,Dungeon Delving (Runil),Southfringe Sanctum
+Dungeon Delving (Runil) (Radiant 9/9),Side Quest,Dungeon Delving (Runil),Sunderstone Gorge
+Dungeon Delving (Amren),Side Quest,none,Whiterun
+Dungeon Delving (Amren) (Radiant 1/5),Side Quest,Dungeon Delving (Amren),Halted Stream Camp
+Dungeon Delving (Amren) (Radiant 2/5),Side Quest,Dungeon Delving (Amren),Redoran's Retreat
+Dungeon Delving (Amren) (Radiant 3/5),Side Quest,Dungeon Delving (Amren),Swindler's Den
+Dungeon Delving (Amren) (Radiant 4/5),Side Quest,Dungeon Delving (Amren),Valtheim Keep
+Dungeon Delving (Amren) (Radiant 5/5),Side Quest,Dungeon Delving (Amren),White River Watch
+Dungeon Delving (Shahvee),Side Quest,none,Windhelm
+Dungeon Delving (Shahvee) (Radiant 1/5),Side Quest,Dungeon Delving (Shahvee),Cragslane Cavern
+Dungeon Delving (Shahvee) (Radiant 2/5),Side Quest,Dungeon Delving (Shahvee),Gallows Rock
+Dungeon Delving (Shahvee) (Radiant 3/5),Side Quest,Dungeon Delving (Shahvee),Lost Knife Hideout
+Dungeon Delving (Shahvee) (Radiant 4/5),Side Quest,Dungeon Delving (Shahvee),Stony Creek Cave
+Dungeon Delving (Shahvee) (Radiant 5/5),Side Quest,Dungeon Delving (Shahvee),Uttering Hills Camp
+Dungeon Delving (Igmund),Side Quest,none,Understone Keep
+Dungeon Delving (Igmund) (Radiant 1/5),Side Quest,Dungeon Delving (Igmund),Bleakwind Bluff
+Dungeon Delving (Igmund) (Radiant 2/5),Side Quest,Dungeon Delving (Igmund),Blind Cliff Cave
+Dungeon Delving (Igmund) (Radiant 3/5),Side Quest,Dungeon Delving (Igmund),Dead Crone Rock
+Dungeon Delving (Igmund) (Radiant 4/5),Side Quest,Dungeon Delving (Igmund),Hag's End
+Dungeon Delving (Igmund) (Radiant 5/5),Side Quest,Dungeon Delving (Igmund),Lost Valley Redoubt
+Dungeon Delving (Korir),Side Quest,none,Winterhold
+Dungeon Delving (Korir) (Radiant 1/10),Side Quest,Dungeon Delving (Korir),Driftshade Refuge
+Dungeon Delving (Korir) (Radiant 2/10),Side Quest,Dungeon Delving (Korir),Fort Fellhammer
+Dungeon Delving (Korir) (Radiant 3/10),Side Quest,Dungeon Delving (Korir),Hela's Folly
+Dungeon Delving (Korir) (Radiant 4/10),Side Quest,Dungeon Delving (Korir),Hob's Fall Cave
+Dungeon Delving (Korir) (Radiant 5/10),Side Quest,Dungeon Delving (Korir),Ironbind Barrow
+Dungeon Delving (Korir) (Radiant 6/10),Side Quest,Dungeon Delving (Korir),Pride of Tel Vos
+Dungeon Delving (Korir) (Radiant 7/10),Side Quest,Dungeon Delving (Korir),Saarthal
+Dungeon Delving (Korir) (Radiant 8/10),Side Quest,Dungeon Delving (Korir),Snow Veil Sanctum
+Dungeon Delving (Korir) (Radiant 9/10),Side Quest,Dungeon Delving (Korir),Yngol Barrow
+Dungeon Delving (Korir) (Radiant 10/10),Side Quest,Dungeon Delving (Korir),Yngvild
+Kill the Bandit Leader (Ahtar),Side Quest,none,Solitude.Broken Oar Grotto
+Kill the Bandit Leader (Annekke Crag-Jumper),Side Quest,none,Darkwater Crossing
+Kill the Bandit Leader (Annekke Crag-Jumper) (Radiant 1/5),Side Quest,Kill the Bandit Leader (Annekke Crag-Jumper),Cragslane Cavern
+Kill the Bandit Leader (Annekke Crag-Jumper) (Radiant 2/5),Side Quest,Kill the Bandit Leader (Annekke Crag-Jumper),Gallows Rock
+Kill the Bandit Leader (Annekke Crag-Jumper) (Radiant 3/5),Side Quest,Kill the Bandit Leader (Annekke Crag-Jumper),Lost Knife Hideout
+Kill the Bandit Leader (Annekke Crag-Jumper) (Radiant 4/5),Side Quest,Kill the Bandit Leader (Annekke Crag-Jumper),Stony Creek Cave
+Kill the Bandit Leader (Annekke Crag-Jumper) (Radiant 5/5),Side Quest,Kill the Bandit Leader (Annekke Crag-Jumper),Uttering Hills Camp
+Kill the Bandit Leader (Brunwulf Free-Winter),Side Quest,none,Windhelm
+Kill the Bandit Leader (Brunwulf Free-Winter) (Radiant 1/5),Side Quest,Kill the Bandit Leader (Brunwulf Free-Winter),Cragslane Cavern
+Kill the Bandit Leader (Brunwulf Free-Winter) (Radiant 2/5),Side Quest,Kill the Bandit Leader (Brunwulf Free-Winter),Gallows Rock
+Kill the Bandit Leader (Brunwulf Free-Winter) (Radiant 3/5),Side Quest,Kill the Bandit Leader (Brunwulf Free-Winter),Lost Knife Hideout
+Kill the Bandit Leader (Brunwulf Free-Winter) (Radiant 4/5),Side Quest,Kill the Bandit Leader (Brunwulf Free-Winter),Stony Creek Cave
+Kill the Bandit Leader (Brunwulf Free-Winter) (Radiant 5/5),Side Quest,Kill the Bandit Leader (Brunwulf Free-Winter),Uttering Hills Camp
+Kill the Bandit Leader (Siddgeir),Side Quest,none,Falkreath
+Kill the Bandit Leader (Siddgeir) (Radiant 1/5),Side Quest,Kill the Bandit Leader (Siddgeir),Bilegulch Mine
+Kill the Bandit Leader (Siddgeir) (Radiant 2/5),Side Quest,Kill the Bandit Leader (Siddgeir),Cracked Tusk Keep
+Kill the Bandit Leader (Siddgeir) (Radiant 3/5),Side Quest,Kill the Bandit Leader (Siddgeir),Embershard Mine
+Kill the Bandit Leader (Siddgeir) (Radiant 4/5),Side Quest,Kill the Bandit Leader (Siddgeir),Knifepoint Ridge
+Kill the Bandit Leader (Siddgeir) (Radiant 5/5),Side Quest,Kill the Bandit Leader (Siddgeir),Bannermist Tower
+Kill the Giant,Side Quest,Waking Nightmare,Dawnstar
+Kill the Giant (Radiant 1/3),Side Quest,Kill the Giant,Blizzard Rest
+Kill the Giant (Radiant 2/3),Side Quest,Kill the Giant,Red Road Pass
+Kill the Giant (Radiant 3/3),Side Quest,Kill the Giant,Tumble Arch Pass
+Kill the Forsworn Leader,Side Quest,none,Markarth
+Kill the Forsworn Leader (Radiant 1/8),Side Quest,Kill the Forsworn Leader,Broken Tower Redoubt
+Kill the Forsworn Leader (Radiant 2/8),Side Quest,Kill the Forsworn Leader,Bruca's Leap Redoubt
+Kill the Forsworn Leader (Radiant 3/8),Side Quest,Kill the Forsworn Leader,Deepwood Redoubt
+Kill the Forsworn Leader (Radiant 4/8),Side Quest,Kill the Forsworn Leader,Dragon Bridge Overlook
+Kill the Forsworn Leader (Radiant 5/8),Side Quest,Kill the Forsworn Leader,Druadach Redoubt
+Kill the Forsworn Leader (Radiant 6/8),Side Quest,Kill the Forsworn Leader,Hag Rock Redoubt
+Kill the Forsworn Leader (Radiant 7/8),Side Quest,Kill the Forsworn Leader,Red Eagle Redoubt
+Kill the Forsworn Leader (Radiant 8/8),Side Quest,Kill the Forsworn Leader,Serpent's Bluff Redoubt
 ,Side Quest,none,
