@@ -32,9 +32,9 @@ The questlines included are:
 
 
 
-Quests that involve radiant locations, locations that are randomly selected when the quest is given, will be considered on a case-by-case basis. If the radiant locations for the quest are finite in number (and reasonable to enumerate), then every enumeration of the quest with radiant locations will be included and labeled as follows:
+Quests that involve radiant locations, locations that are randomly selected when the quest is given, will be considered on a case-by-case basis. If the radiant locations for the quest are finite in number (and reasonable to enumerate), then the static locations for the quest will be listed with the original quest name. Every enumeration of the quest's radiant locations will list this original quest as a prerequisite and be labeled as follows:
 
 >{Quest Name} (Radiant *n*/*m*)
 
-where *n* = the enumeration, and *m* = the total number of enumerations (i.e. the number of radiant locations the quest is selecting from). In the graph, edges for quests with radiant locations will be weighted with 1/*m*.
+where *n* = the enumeration, and *m* = the total number of enumerations (i.e. the number of radiant locations the quest is selecting from). This ensures that radiant locations are not connected together, as the radiant locations have no relationship with one another, but are still connected to the quest's other locations. This also allows radiant quests to be included in larger quest lines without requiring the next quest in the questline to list each radiant variation as a prerequisite. There is a notable drawback in that these radiant locations are not connected to the locations of the next quest in the questline. However, most quests utilizing radiant locations require the player to return to the location they were given the quest before moving on, so this should not impact the analysis in an overly negative way.
 
