@@ -99,8 +99,6 @@ def main():
     print("Create questlines graph")
     questlineGraph = CreateQuestlinesGraph(questsData)
     print("Questlines graph finished")
-    ExportQuestlinesGraph(questlineGraph, "output/questlines-graph.txt")
-    print("Questlines graph exported - chech output/questlines-graph.txt\n")
     #print(questlineGraph.edges)
 
 
