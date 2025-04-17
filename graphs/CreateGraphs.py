@@ -11,10 +11,16 @@ class Quest:
             self.prerequisites = []
         else:
             self.prerequisites = prerequisites.split(".")
-        #self.quest_weight = 1
+
+        if "RADIANT" in name.upper():
+            num = name.split("/")[1] # remove everything before and including the forawrd slash
+            num = num.split(")")[0] # remove everything after the close parenthesis (just in case Radiant marker is not last part of quest name)
+            self.quest_weight = 1/float(num)
+        else:
+            self.quest_weight = 1
     
     def __str__(self):
-        return "{" + self.name + ", " + self.questline + ", " + str(self.prerequisites) + ", " + str(self.locations) + "}"
+        return "{" + self.name + ", " + self.questline + ", " + str(self.prerequisites) + ", " + str(self.locations) + ", " + str(self.quest_weight) + "}"
 
 locations_data_file = "data/skyrim-locations.csv"
 quests_data_file = "data/skyrim-quests.csv"
@@ -44,28 +50,61 @@ def ReadQuests():
     
     return quest_list
 
+def CreateQuestlinesGraph(quest_list:list[Quest]):
+    questlines_graph = nx.DiGraph()
+    #   first put all quests into a queue for processing. If a quest's prerequisite hasn't been processed check if that prereq exists layer in the queue
+    #    if the prereq exists, throw it to the end of the queue. otherwise discard the quest as bad data.
+
+    quest_queue = quest_list.copy()
+
+    while len(quest_queue):
+        quest = quest_queue.pop(0) # dequeue
+        
+        # if any prerequisite quests are not in the graph, enque quest and move on
+        if any(pq not in questlines_graph for pq in quest.prerequisites):
+            # if all prerequisite quest exists in either the queue or the graph,
+            # enqueue quest to be processed later
+            if all((pq in questlines_graph or any(pq == q.name for q in quest_queue)) for pq in quest.prerequisites):
+                quest_queue.append(quest) # enqueue
+            # else quest is discarded as bad data
+            continue
+
+        # add quest to graph
+        questlines_graph.add_node(quest.name, questline=quest.questline)
+
+        # add edges from any and all prerequisite quests to this quest
+        for prereq in quest.prerequisites:
+            questlines_graph.add_edge(prereq, quest.name)
+
+    return questlines_graph 
+
+def CreateQuestLocationsGraph(quest_list:list[Quest], locations_graph:nx.Graph):
+    quest_locations_graph = nx.Graph(locations_graph.nodes)
+
+    return quest_locations_graph
+
 def main():
 
     print("Reading locations data")
-
     locationGraph = ReadLocations()
-
     print("Locations data finished\n")
     #print(locationGraph.nodes(True))
-    print()
+
     print("Reading quests data")
-
     questsData = ReadQuests()
-
     print("Quests data finished\n")
     #for q in questsData:
         #print(q)
 
-    # 2. read quest data, however some quests use other quests as prerequisites, and their order is not guaranteed.
-    #    to account for this, first put all quests into a queue for processing. If a quest's prerequisite hasn't been processed, throw it to the end of the queue
-    #    if the quest is reached in the queue a second time and the prerequisite still hasn't been processed, discard it as bad data
+    print("Create questlines graph")
+    questlineGraph = CreateQuestlinesGraph(questsData)
+    print("Questlines graph finished")
+    ExportQuestlinesGraph(questlineGraph, "output/questlines-graph.txt")
+    print("Questlines graph exported - chech output/questlines-graph.txt\n")
+    #print(questlineGraph.edges)
 
-    # 3. for interest reasons, create DiGraph of quests. nodes have questline and locations(?) as attributes. edges go FROM a prereq quest TO subsequent quest. this graph will NOT be complete.
+
+    # 3. for interest reasons, create DiGraph of quests. nodes have questline and locations(?) as attributes. edges go FROM a prereq quest TO subsequent quest.
     #   3(a). save quests as objects to make processing edges easier later? include quest weight (mostly for radiant quests), prereq locations, and quest locations
     #   3(b). locations that appear in both a quest and its prereq may unfairly add weight to that location? investigate avg num of locations per quest
     #   3(c). might want finite list of quests (not including every radiant variation) for later reference
