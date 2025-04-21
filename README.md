@@ -1,5 +1,10 @@
 # Analysis of Quest Design and Player Exploration in Open-World Games
 
+## Project Dependencies
+[networkx](https://networkx.org/)
+
+[matplotlib](http://matplotlib.org/)
+
 ## Datasets
     
 ### Locations Data
