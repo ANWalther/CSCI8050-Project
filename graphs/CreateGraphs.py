@@ -25,7 +25,7 @@ class Quest:
     def __str__(self):
         return "{" + self.name + ", " + self.questline + ", " + str(self.prerequisites) + ", " + str(self.locations) + ", " + str(self.quest_weight) + "}"
 
-def ReadLocations():
+def ReadLocations() -> nx.Graph:
     locations_graph = nx.Graph()
     with open(locations_data_file, 'r') as locations_data:
         locations = csv.DictReader(locations_data)
@@ -37,9 +37,9 @@ def ReadLocations():
     
     return locations_graph
     
-def ReadQuests():
+def ReadQuests() -> list[Quest]:
     quest_list = []
-    quest_dict = {}
+    #quest_dict = {}
     with open(quests_data_file, 'r') as quests_data:
         quests = csv.DictReader(quests_data)
         for quest in quests:
@@ -48,11 +48,11 @@ def ReadQuests():
             prereq = quest['PREREQUISITE_QUEST']
             locations = quest['LOCATIONS']
             quest_list.append(Quest(name, line, prereq,locations))
-            quest_dict[name] = quest_list[-1]
+            #quest_dict[name] = quest_list[-1]
     
-    return quest_list, quest_dict
+    return quest_list #, quest_dict
 
-def CreateQuestlinesGraph(quest_list:list[Quest]):
+def CreateQuestlinesGraph(quest_list:list[Quest]) -> nx.DiGraph:
     questlines_graph = nx.DiGraph()
     #   first put all quests into a queue for processing. If a quest's prerequisite hasn't been processed check if that prereq exists layer in the queue
     #    if the prereq exists, throw it to the end of the queue. otherwise discard the quest as bad data.
@@ -89,38 +89,49 @@ def AddEdge(locations_graph:nx.Graph, locations:tuple[str,str], edge_weight:floa
     else:
         locations_graph.add_edge(locationA, locationB, weight=edge_weight)
 
-def GetLocationPairs(locations:list[str]):
-    locs = locations.copy()
+def GetLocationPairs(locationsA:list[str], locationsB:list[str]=None) -> list[tuple[str, str]]:
+    # Note to self: can't overload functions bc Python
     pairs = []
 
-    while len(locs) > 1:
-        locationA = locs.pop(0)
-        for locationB in locs:
-            pairs.append((locationA, locationB))
+    if locationsB == None:
+        locs = locationsA.copy()
+        while len(locs) > 1:
+            locA = locs.pop(0)
+            for locB in locs:
+                pairs.append((locA, locB))
+
+    else:                
+        for locA in locationsA:
+            for locB in locationsB:
+                if not locA == locB:
+                    pairs.append((locA, locB))
 
     return pairs
 
-def GetLocationPairs(locationsA:list[str], locationsB:list[str]):
-    pairs = []
+def GetPrereqQuests(quest_list:list[Quest], quest:Quest) -> list[Quest]:
+    prereqs = []
 
-    for locA in locationsA:
-        for locB in locationsB:
-            pairs.append(locA, locB)
+    for pq_name in quest.prerequisites:
+        pq = next((x for x in quest_list if x.name == pq_name), None)
+        if not pq == None:
+            prereqs.append(pq)
     
-    return pairs
+    return prereqs
 
-def CreateQuestLocationsGraph(quest_list:list[Quest], locations_graph:nx.Graph):
-    quest_locations_graph = nx.Graph(locations_graph)
+def CreateQuestLocationsGraph(quest_list:list[Quest], locations_graph:nx.Graph) -> nx.Graph:
 
     # loop through quest list
     for quest in quest_list:
         # add edges between locations in quest
         for pair in GetLocationPairs(quest.locations):
-            AddEdge(quest_locations_graph, pair, quest.quest_weight)
+            AddEdge(locations_graph, pair, quest.quest_weight)
 
         # add edges between locations in quest w/ locations in prereq quest
+        for prereq in GetPrereqQuests(quest_list, quest):
+            for pair in GetLocationPairs(prereq.locations, quest.locations):
+                AddEdge(locations_graph, pair, quest.quest_weight)
 
-    return quest_locations_graph
+    return locations_graph
 
 def main():
 
@@ -143,6 +154,7 @@ def main():
     print("Create quest locations graph")
     questLocationsGraph = CreateQuestLocationsGraph(questsData, locationGraph)
     print("Quest locations graph finished")
+    #print(questLocationsGraph.edges(data=True))
 
     # 3. for interest reasons, create DiGraph of quests. nodes have questline and locations(?) as attributes. edges go FROM a prereq quest TO subsequent quest.
     #   3(a). save quests as objects to make processing edges easier later? include quest weight (mostly for radiant quests), prereq locations, and quest locations
