@@ -351,7 +351,7 @@ Delivery (Adonato Leotelli),Side Quest,none,Windhelm.Solitude
 Delivery (Aeri),Side Quest,none,Anga's Mill.Dawnstar
 Delivery (Banning),Side Quest,none,Markarth Stables.Understone Keep
 Delivery (Idgrod the Younger),Side Quest,none,Morthal.Whiterun
-Delivery (Sondas Drenim),Side Quest,none,Goldenrock Mine.Windhelm
+Delivery (Sondas Drenim),Side Quest,none,Darkwater Crossing.Windhelm
 Salty Sea-Dogs,Side Quest,none,Dawnstar
 Salty Sea-Dogs (Radiant 1/8),Side Quest,Salty Sea-Dogs,Brood Cavern
 Salty Sea-Dogs (Radiant 2/8),Side Quest,Salty Sea-Dogs,Clearspring Tarn
@@ -433,7 +433,7 @@ Dungeon Delving (Oengul War-Anvil) (Radiant 3/6),Side Quest,Dungeon Delving (Oen
 Dungeon Delving (Oengul War-Anvil) (Radiant 4/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Lost Knife Hideout
 Dungeon Delving (Oengul War-Anvil) (Radiant 5/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Stony Creek Cave
 Dungeon Delving (Oengul War-Anvil) (Radiant 6/6),Side Quest,Dungeon Delving (Oengul War-Anvil),Uttering Hills Cave
-Dungeon Delving (Roggi Knot-Beard),Side Quest,none,Eastmarch
+Dungeon Delving (Roggi Knot-Beard),Side Quest,none,Kynesgrove
 Dungeon Delving (Roggi Knot-Beard) (Radiant 1/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Ansilvund
 Dungeon Delving (Roggi Knot-Beard) (Radiant 2/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Cragwallow Slope
 Dungeon Delving (Roggi Knot-Beard) (Radiant 3/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Cronvangr Cave
@@ -441,15 +441,14 @@ Dungeon Delving (Roggi Knot-Beard) (Radiant 4/6),Side Quest,Dungeon Delving (Rog
 Dungeon Delving (Roggi Knot-Beard) (Radiant 5/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Stony Creek Cave
 Dungeon Delving (Roggi Knot-Beard) (Radiant 6/6),Side Quest,Dungeon Delving (Roggi Knot-Beard),Uttering Hills Cave
 Dungeon Delving (Runil),Side Quest,none,Falkreath
-Dungeon Delving (Runil) (Radiant 1/9),Side Quest,Dungeon Delving (Runil),Bloated Man's Grotto
-Dungeon Delving (Runil) (Radiant 2/9),Side Quest,Dungeon Delving (Runil),Brittleshin Pass
-Dungeon Delving (Runil) (Radiant 3/9),Side Quest,Dungeon Delving (Runil),Darkshade Copse
-Dungeon Delving (Runil) (Radiant 4/9),Side Quest,Dungeon Delving (Runil),Embershard
-Dungeon Delving (Runil) (Radiant 5/9),Side Quest,Dungeon Delving (Runil),Greywater Gorge
-Dungeon Delving (Runil) (Radiant 6/9),Side Quest,Dungeon Delving (Runil),Halldir's Cairn
-Dungeon Delving (Runil) (Radiant 7/9),Side Quest,Dungeon Delving (Runil),Moss Mother Cavern
-Dungeon Delving (Runil) (Radiant 8/9),Side Quest,Dungeon Delving (Runil),Southfringe Sanctum
-Dungeon Delving (Runil) (Radiant 9/9),Side Quest,Dungeon Delving (Runil),Sunderstone Gorge
+Dungeon Delving (Runil) (Radiant 1/8),Side Quest,Dungeon Delving (Runil),Bloated Man's Grotto
+Dungeon Delving (Runil) (Radiant 2/8),Side Quest,Dungeon Delving (Runil),Brittleshin Pass
+Dungeon Delving (Runil) (Radiant 3/8),Side Quest,Dungeon Delving (Runil),Darkshade
+Dungeon Delving (Runil) (Radiant 4/8),Side Quest,Dungeon Delving (Runil),Embershard Mine
+Dungeon Delving (Runil) (Radiant 5/8),Side Quest,Dungeon Delving (Runil),Sunderstone Gorge
+Dungeon Delving (Runil) (Radiant 6/8),Side Quest,Dungeon Delving (Runil),Halldir's Cairn
+Dungeon Delving (Runil) (Radiant 7/8),Side Quest,Dungeon Delving (Runil),Moss Mother Cavern
+Dungeon Delving (Runil) (Radiant 8/8),Side Quest,Dungeon Delving (Runil),Southfringe Sanctum
 Dungeon Delving (Amren),Side Quest,none,Whiterun
 Dungeon Delving (Amren) (Radiant 1/5),Side Quest,Dungeon Delving (Amren),Halted Stream Camp
 Dungeon Delving (Amren) (Radiant 2/5),Side Quest,Dungeon Delving (Amren),Redoran's Retreat
@@ -474,7 +473,7 @@ Dungeon Delving (Korir) (Radiant 2/10),Side Quest,Dungeon Delving (Korir),Fort F
 Dungeon Delving (Korir) (Radiant 3/10),Side Quest,Dungeon Delving (Korir),Hela's Folly
 Dungeon Delving (Korir) (Radiant 4/10),Side Quest,Dungeon Delving (Korir),Hob's Fall Cave
 Dungeon Delving (Korir) (Radiant 5/10),Side Quest,Dungeon Delving (Korir),Ironbind Barrow
-Dungeon Delving (Korir) (Radiant 6/10),Side Quest,Dungeon Delving (Korir),Pride of Tel Vos
+Dungeon Delving (Korir) (Radiant 6/10),Side Quest,Dungeon Delving (Korir),Wreck of The Pride of Tel Vos
 Dungeon Delving (Korir) (Radiant 7/10),Side Quest,Dungeon Delving (Korir),Saarthal
 Dungeon Delving (Korir) (Radiant 8/10),Side Quest,Dungeon Delving (Korir),Snow Veil Sanctum
 Dungeon Delving (Korir) (Radiant 9/10),Side Quest,Dungeon Delving (Korir),Yngol Barrow
