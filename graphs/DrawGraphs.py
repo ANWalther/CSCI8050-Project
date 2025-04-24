@@ -50,6 +50,7 @@ def main():
     # Test drawing locations graph with quest edges
     questData = CreateGraphs.ReadQuests()
     quest_loc_graph = CreateGraphs.CreateQuestLocationsGraph(questData, locations_graph)
+    print("Draw Locations Graph")
     DrawLocationsGraph(quest_loc_graph)
 
     print("Draw Graphs Main End")

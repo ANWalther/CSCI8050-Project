@@ -8,12 +8,12 @@ class Quest:
     def __init__(self, name:str, questline:str, prerequisites:str, locations:str):
         self.name = name
         self.questline = questline
-        self.locations = locations.split(".")
+        self.locations = [x.strip() for x in locations.split(".")]
 
         if prerequisites.lower() == "none":
             self.prerequisites = []
         else:
-            self.prerequisites = prerequisites.split(".")
+            self.prerequisites = [x.strip() for x in prerequisites.split(".")]
 
         if "RADIANT" in name.upper():
             num = name.split("/")[1] # remove everything before and including the forawrd slash
@@ -34,6 +34,7 @@ def ReadLocations() -> nx.Graph:
             x = float(location['X_COORD'])
             y = float(location['Y_COORD'])
             locations_graph.add_node(name, hold=location['HOLD'], x_coord=x, y_coord=y)
+            #print(name)
     
     return locations_graph
     
