@@ -20,6 +20,8 @@ def DrawLocationsGraph(locations_graph:nx.Graph):
         x = x_coords[node]
         y = y_coords[node]
         node_pos[node] = (x,y)
+        if x == y and x == 0:
+            print(node)
 
     #node_pos = nx.rescale_layout_dict(node_pos, graph_scale)
     nx.draw_networkx(locations_graph, pos=node_pos)
