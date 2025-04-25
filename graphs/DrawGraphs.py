@@ -4,14 +4,7 @@ import CreateGraphs
 
 graph_scale = 10.0
 
-def DrawQuestlinesGraph(questlines_graph:nx.DiGraph):
-    # First generate layout
-    
-    nx.draw_networkx(questlines_graph)
-    plt.show()
-    return
-
-def DrawLocationsGraph(locations_graph:nx.Graph):
+def GetLocationsPositions(locations_graph:nx.Graph):
     node_pos = {}
     x_coords = nx.get_node_attributes(locations_graph, "x_coord", default=0)
     y_coords = nx.get_node_attributes(locations_graph, "y_coord", default=0)
@@ -22,9 +15,21 @@ def DrawLocationsGraph(locations_graph:nx.Graph):
         node_pos[node] = (x,y)
         if x == y and x == 0:
             print(node)
+    
+    #node_pos = nx.rescale_layout_dict(node_pos, graph_scale)    
+    return node_pos
+    
 
-    #node_pos = nx.rescale_layout_dict(node_pos, graph_scale)
-    nx.draw_networkx(locations_graph, pos=node_pos)
+def DrawQuestlinesGraph(questlines_graph:nx.DiGraph):
+    # First generate layout
+    
+    nx.draw_networkx(questlines_graph)
+    plt.show()
+    return
+
+def DrawLocationsGraph(locations_graph:nx.Graph):
+    # draw edges then node and edge labels for more fine-tuned control
+    nx.draw_networkx(locations_graph, pos=GetLocationsPositions(locations_graph))
     plt.show()
     return
 
