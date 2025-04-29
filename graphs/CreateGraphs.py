@@ -1,8 +1,10 @@
 import networkx as nx
 import csv
+import math
 
 locations_data_file = "data/skyrim-locations.csv"
 quests_data_file = "data/skyrim-quests.csv"
+location_proximity_limit = 19600 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
 
 class Quest:
     def __init__(self, name:str, questline:str, prerequisites:str, locations:str):
@@ -25,7 +27,7 @@ class Quest:
     def __str__(self):
         return "{" + self.name + ", " + self.questline + ", " + str(self.prerequisites) + ", " + str(self.locations) + ", " + str(self.quest_weight) + "}"
 
-def ReadLocations() -> nx.Graph:
+def ReadLocations(proximity_edges:bool=False) -> nx.Graph:
     locations_graph = nx.Graph()
     with open(locations_data_file, 'r') as locations_data:
         locations = csv.DictReader(locations_data)
@@ -34,11 +36,27 @@ def ReadLocations() -> nx.Graph:
             x = float(location['X_COORD'])
             y = float(location['Y_COORD'])
             locations_graph.add_node(name, hold=location['HOLD'], x_coord=x, y_coord=y)
-            #print(name)
+            if proximity_edges:
+                AddLocationProximityEdges(locations_graph, name)
     
     return locations_graph
+
+def AddLocationProximityEdges(locations_graph:nx.Graph, nodeA:str):
+    x_coords = nx.get_node_attributes(locations_graph, "x_coord", default=None)
+    y_coords = nx.get_node_attributes(locations_graph, "y_coord", default=None)
     
-def ReadQuests() -> list[Quest]:
+    for nodeB in locations_graph.nodes:
+        if not nodeA == nodeB:
+            xA = x_coords[nodeA]
+            yA = y_coords[nodeA]
+
+            xB = x_coords[nodeB]
+            yB = y_coords[nodeB]
+
+            if math.dist([xA,yA], [xB,yB]) <= location_proximity_limit:
+                locations_graph.add_edge(nodeA, nodeB, weight=1)
+
+def ReadQuests(questline_filter:str=None) -> list[Quest]:
     quest_list = []
     #quest_dict = {}
     with open(quests_data_file, 'r') as quests_data:
@@ -48,7 +66,8 @@ def ReadQuests() -> list[Quest]:
             line = quest['QUESTLINE']
             prereq = quest['PREREQUISITE_QUEST']
             locations = quest['LOCATIONS']
-            quest_list.append(Quest(name, line, prereq,locations))
+            if questline_filter == None or questline_filter == line:
+                quest_list.append(Quest(name, line, prereq,locations))
             #quest_dict[name] = quest_list[-1]
     
     return quest_list #, quest_dict

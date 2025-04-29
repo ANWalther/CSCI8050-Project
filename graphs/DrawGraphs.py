@@ -49,13 +49,13 @@ def main():
     # DrawQuestlinesGraph(questlines_graph)
 
     # Test drawing locations graph
-    locations_graph = CreateGraphs.ReadLocations()
-    #DrawLocationsGraph(locations_graph)
+    locations_graph = CreateGraphs.ReadLocations(True)
+    DrawLocationsGraph(locations_graph)
 
     # Test drawing locations graph with quest edges
-    questData = CreateGraphs.ReadQuests()
-    quest_loc_graph = CreateGraphs.CreateQuestLocationsGraph(questData, locations_graph)
-    DrawLocationsGraph(quest_loc_graph)
+    #questData = CreateGraphs.ReadQuests()
+    #quest_loc_graph = CreateGraphs.CreateQuestLocationsGraph(questData, locations_graph)
+    #DrawLocationsGraph(quest_loc_graph)
 
     print("Draw Graphs Main End")
 
