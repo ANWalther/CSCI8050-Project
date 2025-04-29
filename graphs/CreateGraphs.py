@@ -4,7 +4,7 @@ import math
 
 locations_data_file = "data/skyrim-locations.csv"
 quests_data_file = "data/skyrim-quests.csv"
-location_proximity_limit = 19600 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
+location_proximity_limit = 19596 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
 
 class Quest:
     def __init__(self, name:str, questline:str, prerequisites:str, locations:str):
