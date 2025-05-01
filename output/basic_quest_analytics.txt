@@ -1,0 +1,186 @@
+Report Generated 2025-05-01 15:27:27.357398
+\nNumber of quests         : 212
+Number of locations      : 169
+AVG locations per quest  : 1.971698113207547
+
+Quests per questline     :
+Side Quest               : 88
+Dark Brotherhood         : 21
+Main Quest               : 20
+Thieves Guild            : 19
+Daedric                  : 15
+Imperial Legion          : 14
+Stormcloaks              : 14
+Companions               : 11
+College of Winterhold    : 10
+
+Location use counts           :
+Whiterun                      : 29
+Solitude                      : 25
+Dark Brotherhood Sanctuary    : 24
+Windhelm                      : 22
+Riften                        : 19
+Markarth                      : 14
+College of Winterhold         : 13
+Thieves Guild                 : 12
+Dawnstar                      : 9
+Ivarstead                     : 8
+High Hrothgar                 : 7
+Riverwood                     : 6
+Throat of the World           : 6
+Falkreath                     : 6
+Dragonsreach                  : 5
+Morthal                       : 5
+Understone Keep               : 5
+Blue Palace                   : 5
+Sky Haven Temple              : 4
+Winterhold                    : 4
+Darkwater Crossing            : 4
+Dragon Bridge                 : 3
+Dawnstar Sanctuary            : 3
+Fort Sungard                  : 3
+Kynesgrove                    : 2
+Septimus Signus's Outpost     : 2
+Alftand                       : 2
+Blackreach                    : 2
+Tower of Mzark                : 2
+Sovngarde                     : 2
+Saarthal                      : 2
+Windward Ruins                : 2
+Abandoned Shack               : 2
+Anga's Mill                   : 2
+Mzinchaleft                   : 2
+East Empire Company Warehouse : 2
+Nightgate Inn                 : 2
+Ysgramor's Tomb               : 2
+Fort Hraggstad                : 2
+Korvanjund                    : 2
+Pale Imperial Camp            : 2
+Fort Dunstad                  : 2
+Rift Imperial Camp            : 2
+Mistveil Keep                 : 2
+Fort Greenwall                : 2
+Fort Kastav                   : 2
+Fort Snowhawk                 : 2
+Fort Neugrad                  : 2
+Eastmarch Imperial Camp       : 2
+Rorikstead                    : 2
+Knifepoint Ridge              : 2
+Karthwasten                   : 2
+Broken Oar Grotto             : 2
+Dushnikh Yal                  : 2
+Old Hroldan Inn               : 2
+Shor's Stone                  : 2
+Helgen                        : 1
+Bleak Falls Barrow            : 1
+Western Watchtower            : 1
+Ustengrav                     : 1
+Thalmor Embassy               : 1
+Forsaken Cave                 : 1
+Stonehill Bluff               : 1
+Skuldafn                      : 1
+Hall of Valor                 : 1
+Folgunthur                    : 1
+Geirmund's Hall               : 1
+Reachwater Rock               : 1
+Fellglow Keep                 : 1
+Mzulft                        : 1
+Labyrinthian                  : 1
+North Skybound Watch          : 1
+Four Skull Lookout            : 1
+Raldbthar                     : 1
+Half-Moon Mill                : 1
+Volunruud                     : 1
+Hela's Folly                  : 1
+Fort Greymoor                 : 1
+Deepwood Redoubt              : 1
+Hag's End                     : 1
+The Katariah                  : 1
+Pelagia Farm                  : 1
+Dustman's Cairn               : 1
+Gallows Rock                  : 1
+Glenmoril Coven               : 1
+Driftshade Refuge             : 1
+Winterhold Imperial Camp      : 1
+Hjaalmarch Imperial Camp      : 1
+Reach Imperial Camp           : 1
+Falkreath Imperial Camp       : 1
+Fort Amol                     : 1
+The Serpent Stone             : 1
+Falkreath Stormcloak Camp     : 1
+Reach Stormcloak Camp         : 1
+Hjaalmarch Stormcloak Camp    : 1
+Haafingar Stormcloak Camp     : 1
+Pale Stormcloak Camp          : 1
+Rift Stormcloak Camp          : 1
+Winterhold Stormcloak Camp    : 1
+Goldenglow Estate             : 1
+Honningbrew Meadery           : 1
+Snow Veil Sanctum             : 1
+Nightingale Hall              : 1
+Irkngthand                    : 1
+Twilight Sepulcher            : 1
+Pinewatch                     : 1
+Uttering Hills Cave           : 1
+Dainty Sload                  : 1
+Yngvild                       : 1
+Shrine of Azura               : 1
+Ilinalta's Deep               : 1
+Sacellum of Boethiah          : 1
+Haemar's Shame                : 1
+Rimerock Burrow               : 1
+Bloated Man's Grotto          : 1
+Largashbur                    : 1
+Fallowstone Cave              : 1
+Giant's Grove                 : 1
+Dead Crone Rock               : 1
+Cracked Tusk Keep             : 1
+Shrine of Mehrunes Dagon      : 1
+Statue to Meridia             : 1
+Kilkreath Ruins               : 1
+Reachcliff Cave               : 1
+Shrine to Peryite             : 1
+Bthardamz                     : 1
+Morvunskar                    : 1
+Nightcaller Temple            : 1
+Broken Tower Redoubt          : 1
+Movarth's Lair                : 1
+Black Briar Lodge             : 1
+Gjukar's Monument             : 1
+Avanchnzel                    : 1
+Solitude Lighthouse           : 1
+Wreck of the Icerunner        : 1
+Dead Men's Respite            : 1
+Stony Creek Cave              : 1
+Hob's Fall Cave               : 1
+Halldir's Cairn               : 1
+Wolfskull Cave                : 1
+Potema's Catacombs            : 1
+Shrine of Talos               : 1
+Swindler's Den                : 1
+Northwatch Keep               : 1
+Orphan Rock                   : 1
+Eldergleam Sanctuary          : 1
+Japhet's Folly                : 1
+Froki's Shack                 : 1
+Broken Fang Cave              : 1
+The Guardian Stones           : 1
+Loreius Farm                  : 1
+Bleakcoast Cave               : 1
+Graywinter Watch              : 1
+Darkwater Pass                : 1
+Bloodlet Throne               : 1
+Pinemoon Cave                 : 1
+Stonehills                    : 1
+Left Hand Mine                : 1
+Kolskeggr Mine                : 1
+Salvius Farm                  : 1
+Merryfair Farm                : 1
+Heartwood Mill                : 1
+Broken Helm Hollow            : 1
+Shroud Hearth Barrow          : 1
+Wreck of The Pride of Tel Vos : 1
+Cragslane Cavern              : 1
+Markarth Stables              : 1
+Mor Khazgur                   : 1
+Narzulbur                     : 1

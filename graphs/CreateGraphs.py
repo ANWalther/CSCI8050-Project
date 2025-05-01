@@ -1,31 +1,38 @@
 import networkx as nx
 import csv
 import math
+import QuestData as quests
 
 locations_data_file = "data/skyrim-locations.csv"
-quests_data_file = "data/skyrim-quests.csv"
 location_proximity_limit = 19596 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
 
-class Quest:
-    def __init__(self, name:str, questline:str, prerequisites:str, locations:str):
-        self.name = name
-        self.questline = questline
-        self.locations = [x.strip() for x in locations.split(".")]
+def CreateQuestlinesGraph(quest_list:list[quests.Quest]) -> nx.DiGraph:
+    questlines_graph = nx.DiGraph()
+    #   first put all quests into a queue for processing. If a quest's prerequisite hasn't been processed check if that prereq exists layer in the queue
+    #    if the prereq exists, throw it to the end of the queue. otherwise discard the quest as bad data.
 
-        if prerequisites.lower() == "none":
-            self.prerequisites = []
-        else:
-            self.prerequisites = [x.strip() for x in prerequisites.split(".")]
+    quest_queue = quest_list.copy()
 
-        if "RADIANT" in name.upper():
-            num = name.split("/")[1] # remove everything before and including the forawrd slash
-            num = num.split(")")[0] # remove everything after the close parenthesis (just in case Radiant marker is not last part of quest name)
-            self.quest_weight = 1/float(num)
-        else:
-            self.quest_weight = 1
-    
-    def __str__(self):
-        return "{" + self.name + ", " + self.questline + ", " + str(self.prerequisites) + ", " + str(self.locations) + ", " + str(self.quest_weight) + "}"
+    while len(quest_queue):
+        quest = quest_queue.pop(0) # dequeue
+        
+        # if any prerequisite quests are not in the graph, enque quest and move on
+        if any(pq not in questlines_graph for pq in quest.prerequisites):
+            # if all prerequisite quest exists in either the queue or the graph,
+            # enqueue quest to be processed later
+            if all((pq in questlines_graph or any(pq == q.name for q in quest_queue)) for pq in quest.prerequisites):
+                quest_queue.append(quest) # enqueue
+            # else quest is discarded as bad data
+            continue
+
+        # add quest to graph
+        questlines_graph.add_node(quest.name, questline=quest.questline)
+
+        # add edges from any and all prerequisite quests to this quest
+        for prereq in quest.prerequisites:
+            questlines_graph.add_edge(prereq, quest.name)
+
+    return questlines_graph 
 
 def ReadLocations(proximity_edges:bool=False) -> nx.Graph:
     locations_graph = nx.Graph()
@@ -56,50 +63,6 @@ def AddLocationProximityEdges(locations_graph:nx.Graph, nodeA:str):
             if math.dist([xA,yA], [xB,yB]) <= location_proximity_limit:
                 locations_graph.add_edge(nodeA, nodeB, weight=1)
 
-def ReadQuests(questline_filter:str=None) -> list[Quest]:
-    quest_list = []
-    #quest_dict = {}
-    with open(quests_data_file, 'r') as quests_data:
-        quests = csv.DictReader(quests_data)
-        for quest in quests:
-            name = quest['QUEST_NAME']
-            line = quest['QUESTLINE']
-            prereq = quest['PREREQUISITE_QUEST']
-            locations = quest['LOCATIONS']
-            if questline_filter == None or questline_filter == line:
-                quest_list.append(Quest(name, line, prereq,locations))
-            #quest_dict[name] = quest_list[-1]
-    
-    return quest_list #, quest_dict
-
-def CreateQuestlinesGraph(quest_list:list[Quest]) -> nx.DiGraph:
-    questlines_graph = nx.DiGraph()
-    #   first put all quests into a queue for processing. If a quest's prerequisite hasn't been processed check if that prereq exists layer in the queue
-    #    if the prereq exists, throw it to the end of the queue. otherwise discard the quest as bad data.
-
-    quest_queue = quest_list.copy()
-
-    while len(quest_queue):
-        quest = quest_queue.pop(0) # dequeue
-        
-        # if any prerequisite quests are not in the graph, enque quest and move on
-        if any(pq not in questlines_graph for pq in quest.prerequisites):
-            # if all prerequisite quest exists in either the queue or the graph,
-            # enqueue quest to be processed later
-            if all((pq in questlines_graph or any(pq == q.name for q in quest_queue)) for pq in quest.prerequisites):
-                quest_queue.append(quest) # enqueue
-            # else quest is discarded as bad data
-            continue
-
-        # add quest to graph
-        questlines_graph.add_node(quest.name, questline=quest.questline)
-
-        # add edges from any and all prerequisite quests to this quest
-        for prereq in quest.prerequisites:
-            questlines_graph.add_edge(prereq, quest.name)
-
-    return questlines_graph 
-
 def AddEdge(locations_graph:nx.Graph, locations:tuple[str,str], edge_weight:float):
     locationA = locations[0]
     locationB = locations[1]
@@ -128,17 +91,7 @@ def GetLocationPairs(locationsA:list[str], locationsB:list[str]=None) -> list[tu
 
     return pairs
 
-def GetPrereqQuests(quest_list:list[Quest], quest:Quest) -> list[Quest]:
-    prereqs = []
-
-    for pq_name in quest.prerequisites:
-        pq = next((x for x in quest_list if x.name == pq_name), None)
-        if not pq == None:
-            prereqs.append(pq)
-    
-    return prereqs
-
-def CreateQuestLocationsGraph(quest_list:list[Quest], locations_graph:nx.Graph) -> nx.Graph:
+def CreateQuestLocationsGraph(quest_list:list[quests.Quest], locations_graph:nx.Graph) -> nx.Graph:
 
     # loop through quest list
     for quest in quest_list:
@@ -147,7 +100,7 @@ def CreateQuestLocationsGraph(quest_list:list[Quest], locations_graph:nx.Graph) 
             AddEdge(locations_graph, pair, quest.quest_weight)
 
         # add edges between locations in quest w/ locations in prereq quest
-        for prereq in GetPrereqQuests(quest_list, quest):
+        for prereq in quests.GetPrereqQuests(quest_list, quest):
             for pair in GetLocationPairs(prereq.locations, quest.locations):
                 AddEdge(locations_graph, pair, quest.quest_weight)
 
@@ -161,7 +114,7 @@ def main():
     #print(locationGraph.nodes(True))
 
     print("Reading quests data")
-    questsData = ReadQuests()
+    questsData = quests.ReadQuests()
     print("Quests data finished\n")
     #for q in questsData:
         #print(q)
