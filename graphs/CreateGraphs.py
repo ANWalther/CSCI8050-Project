@@ -91,7 +91,7 @@ def GetLocationPairs(locationsA:list[str], locationsB:list[str]=None) -> list[tu
 
     return pairs
 
-def CreateQuestLocationsGraph(quest_list:list[quests.Quest], locations_graph:nx.Graph) -> nx.Graph:
+def UpdateQuestLocationsGraph(quest_list:list[quests.Quest], locations_graph:nx.Graph):
 
     # loop through quest list
     for quest in quest_list:
@@ -103,8 +103,6 @@ def CreateQuestLocationsGraph(quest_list:list[quests.Quest], locations_graph:nx.
         for prereq in quests.GetPrereqQuests(quest_list, quest):
             for pair in GetLocationPairs(prereq.locations, quest.locations):
                 AddEdge(locations_graph, pair, quest.quest_weight)
-
-    return locations_graph
 
 def main():
 
@@ -125,7 +123,7 @@ def main():
     #print(questlineGraph.edges)
 
     print("Create quest locations graph")
-    questLocationsGraph = CreateQuestLocationsGraph(questsData, locationGraph)
+    UpdateQuestLocationsGraph(questsData, locationGraph)
     print("Quest locations graph finished")
     #print(questLocationsGraph.edges(data=True))
 
