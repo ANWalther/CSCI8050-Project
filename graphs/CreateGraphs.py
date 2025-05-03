@@ -42,6 +42,8 @@ def ReadLocations(proximity_edges:bool=False) -> nx.Graph:
             name = location['LOCATION_NAME']
             x = float(location['X_COORD'])
             y = float(location['Y_COORD'])
+            if name in locations_graph:
+                print(name)
             locations_graph.add_node(name, hold=location['HOLD'], x_coord=x, y_coord=y)
             if proximity_edges:
                 AddLocationProximityEdges(locations_graph, name)
