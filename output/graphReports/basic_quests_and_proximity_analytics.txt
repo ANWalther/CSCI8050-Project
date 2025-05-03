@@ -1,0 +1,400 @@
+Report Generated 2025-05-03 16:11:59.084351
+
+Basic Analytics - player origin 'Helgen' 
+
+389 nodes, 1675 edges
+graph density 0.022195425754644477
+1 isolated node(s) (0.26% isolated)
+1 nontrivial connected component(s)
+nontrivial component size(s): 388 
+
+Locations                      : Weight
+Solitude                       : 109.4
+Whiterun                       : 105.4
+Dark Brotherhood Sanctuary     : 83.0
+Windhelm                       : 74.4
+Riften                         : 57.4
+Thieves Guild                  : 52.0
+Throat of the World            : 46.0
+High Hrothgar                  : 43.0
+Markarth                       : 42.4
+Sky Haven Temple               : 32.0
+Dragonsreach                   : 31.0
+Riverwood                      : 31.0
+Dawnstar                       : 31.0
+College of Winterhold          : 29.1
+Falkreath                      : 25.1
+Blue Palace                    : 23.0
+Nightgate Inn                  : 23.0
+Dragon Bridge                  : 22.0
+Ivarstead                      : 22.0
+Morthal                        : 21.0
+Fort Dunstad                   : 19.0
+Mistveil Keep                  : 19.0
+East Empire Company Warehouse  : 18.0
+Winterhold                     : 18.0
+Thalmor Embassy                : 17.0
+Fort Snowhawk                  : 17.0
+Dawnstar Sanctuary             : 17.0
+Pale Imperial Camp             : 17.0
+Korvanjund                     : 17.0
+Tower of Mzark                 : 17.0
+Western Watchtower             : 17.0
+Alftand                        : 17.0
+Fort Hraggstad                 : 16.0
+Abandoned Shack                : 16.0
+Windward Ruins                 : 16.0
+Honningbrew Meadery            : 16.0
+Wolfskull Cave                 : 15.1
+Hjaalmarch Stormcloak Camp     : 15.0
+Goldenglow Estate              : 15.0
+Graywinter Watch               : 15.0
+Gallows Rock                   : 14.2
+Knifepoint Ridge               : 14.2
+Saarthal                       : 14.1
+Fort Neugrad                   : 14.0
+Four Skull Lookout             : 14.0
+Fort Sungard                   : 14.0
+Rift Imperial Camp             : 14.0
+Nightingale Hall               : 14.0
+Fort Greenwall                 : 14.0
+Kynesgrove                     : 14.0
+Eastmarch Imperial Camp        : 13.0
+The Katariah                   : 13.0
+Dead Men's Respite             : 13.0
+Ustengrav                      : 13.0
+Fort Greymoor                  : 13.0
+Forsaken Cave                  : 12.5
+Falkreath Imperial Camp        : 12.0
+The Guardian Stones            : 12.0
+Haafingar Stormcloak Camp      : 12.0
+Pale Stormcloak Camp           : 12.0
+Reachwater Rock                : 12.0
+Snow-Shod Farm                 : 12.0
+Rift Stormcloak Camp           : 12.0
+Battle-Born Farm               : 12.0
+Septimus Signus's Outpost      : 12.0
+Blackreach                     : 12.0
+Stony Creek Cave               : 11.2
+Fort Amol                      : 11.0
+Bleak Falls Barrow             : 11.0
+Statue to Meridia              : 11.0
+Hjaalmarch Imperial Camp       : 11.0
+Mzinchaleft                    : 11.0
+Stonehill Bluff                : 11.0
+Raldbthar                      : 11.0
+Reach Stormcloak Camp          : 11.0
+Geirmund's Hall                : 11.0
+Pelagia Farm                   : 11.0
+Understone Keep                : 11.0
+Uttering Hills Cave            : 10.3
+Fellglow Keep                  : 10.1
+Snow Veil Sanctum              : 10.1
+Broken Fang Cave               : 10.0
+Potema's Catacombs             : 10.0
+Hlaalu Farm                    : 10.0
+Hollyfrost Farm                : 10.0
+Windhelm Military Camp         : 10.0
+Folgunthur                     : 10.0
+Loreius Farm                   : 10.0
+Karthwasten                    : 10.0
+Karthspire                     : 10.0
+Froki's Shack                  : 10.0
+The Shadow Stone               : 10.0
+Rorikstead                     : 10.0
+Bleakcoast Cave                : 10.0
+Fort Kastav                    : 10.0
+Kilkreath Ruins                : 10.0
+Red Eagle Redoubt              : 9.7
+Mzulft                         : 9.7
+Morvunskar                     : 9.3
+Cragslane Cavern               : 9.2
+Blind Cliff Cave               : 9.2
+Dustman's Cairn                : 9.2
+Halldir's Cairn                : 9.1
+Driftshade Refuge              : 9.1
+Aftershock Radiant Location 13 : 9.0
+Aftershock Radiant Location 19 : 9.0
+Mixwater Mill                  : 9.0
+Eldergleam Sanctuary           : 9.0
+Half-Moon Mill                 : 9.0
+Pinewatch                      : 9.0
+Falkreath Stormcloak Camp      : 9.0
+Rimerock Burrow                : 9.0
+Dainty Sload                   : 9.0
+Bronze Water Cave              : 9.0
+Irkngthand                     : 9.0
+Silverdrift Lair               : 9.0
+Reach Imperial Camp            : 9.0
+Riften Stables                 : 9.0
+Merryfair Farm                 : 9.0
+Chillfurrow Farm               : 9.0
+Winterhold Imperial Camp       : 9.0
+Broken Tower Redoubt           : 8.7
+Deepwood Redoubt               : 8.7
+Dwarven Storeroom              : 8.7
+Hob's Fall Cave                : 8.2
+Hag's End                      : 8.2
+White River Watch              : 8.2
+Forelhost                      : 8.2
+Falkreath Watchtower           : 8.1
+Mount Anthor                   : 8.1
+Ironbind Barrow                : 8.1
+North Shriekwind Bastion       : 8.1
+Aftershock Radiant Location 1  : 8.0
+Aftershock Radiant Location 16 : 8.0
+Windhelm Stables               : 8.0
+Brandy-Mug Farm                : 8.0
+Darkwater Crossing             : 8.0
+Sacellum of Boethiah           : 8.0
+Glenmoril Coven                : 8.0
+Roadside Ruins                 : 8.0
+Evergreen Grove                : 8.0
+Solitude Sawmill               : 8.0
+Solitude Military Camp         : 8.0
+Lost Echo Cave                 : 8.0
+The Steed Stone                : 8.0
+Stonehills                     : 8.0
+Wreck of the Icerunner         : 8.0
+Shrine of Mehrunes Dagon       : 8.0
+Karthspire Camp                : 8.0
+Kolskeggr Mine                 : 8.0
+Whiterun Stables               : 8.0
+The Ritual Stone               : 8.0
+Winterhold Stormcloak Camp     : 8.0
+Ysgramor's Tomb                : 8.0
+Great Lift at Alftand          : 8.0
+Wayward Pass                   : 8.0
+Bruca's Leap Redoubt           : 7.7
+Shor's Stone                   : 7.7
+Cragwallow Slope               : 7.6
+Ansilvund                      : 7.5
+Swindler's Den                 : 7.5
+Cronvangr Cave                 : 7.5
+Harmugstahl                    : 7.4
+Broken Helm Hollow             : 7.3
+Broken Oar Grotto              : 7.3
+Steepfall Burrow               : 7.3
+Red Road Pass                  : 7.3
+Shrouded Grove                 : 7.3
+Rebel's Cairn                  : 7.3
+Cracked Tusk Keep              : 7.2
+Traitor's Post                 : 7.2
+Brood Cavern                   : 7.1
+Ilinalta's Deep                : 7.1
+South Shriekwind Bastion       : 7.1
+Aftershock Radiant Location 2  : 7.0
+Aftershock Radiant Location 3  : 7.0
+Aftershock Radiant Location 5  : 7.0
+Aftershock Radiant Location 11 : 7.0
+Aftershock Radiant Location 23 : 7.0
+Cradlecrush Rock               : 7.0
+Abandoned Prison               : 7.0
+Helgen                         : 7.0
+Hunter's Rest                  : 7.0
+Ironback Hideout               : 7.0
+Katla's Farm                   : 7.0
+Lower Steepfall Burrow         : 7.0
+Widow's Watch Ruins            : 7.0
+Clearpine Pond                 : 7.0
+Great Lift at Mzinchaleft      : 7.0
+Hall of the Vigilant           : 7.0
+Frostmere Crypt                : 7.0
+Volunruud                      : 7.0
+Weynon Stones                  : 7.0
+Cliffside Retreat              : 7.0
+Soljund's Sinkhole             : 7.0
+Shrine to Peryite              : 7.0
+Sundered Towers                : 7.0
+Crystaldrift Cave              : 7.0
+Drelas' Cottage                : 7.0
+Whiterun Military Camp         : 7.0
+Shrine of Talos                : 7.0
+North Skybound Watch           : 7.0
+Redoran's Retreat              : 6.5
+Hillgrund's Tomb               : 6.5
+Tumble Arch Pass               : 6.3
+Embershard Mine                : 6.3
+Bilegulch Mine                 : 6.2
+Bannermist Tower               : 6.2
+Volskygge                      : 6.2
+High Gate Ruins                : 6.2
+Moss Mother Cavern             : 6.1
+Darklight Tower                : 6.1
+Mara's Eye Pond                : 6.1
+Northwatch Keep                : 6.1
+Bonestrewn Crest               : 6.1
+Lost Tongue Overlook           : 6.1
+Yngol Barrow                   : 6.1
+Autumnshade Clearing           : 6.1
+Rannveig's Fast                : 6.1
+Pinemoon Cave                  : 6.0
+Movarth's Lair                 : 6.0
+Aftershock Radiant Location 9  : 6.0
+Aftershock Radiant Location 14 : 6.0
+Aftershock Radiant Location 15 : 6.0
+Aftershock Radiant Location 20 : 6.0
+Aftershock Radiant Location 26 : 6.0
+Palace of the Kings            : 6.0
+Riverside Shack                : 6.0
+Snapleg Cave                   : 6.0
+Bonechill Passage              : 6.0
+Greywater Grotto               : 6.0
+The Lady Stone                 : 6.0
+Pinefrost Tower                : 6.0
+Solitude Lighthouse            : 6.0
+Labyrinthian                   : 6.0
+The Lord Stone                 : 6.0
+Yorgrim Overlook               : 6.0
+Salvius Farm                   : 6.0
+Liar's Retreat                 : 6.0
+Reachcliff Cave                : 6.0
+Left Hand Mine                 : 6.0
+Sarethi Farm                   : 6.0
+Honeystrand Cave               : 6.0
+Nilheim                        : 6.0
+Rift Watchtower                : 6.0
+Shor's Watchtower              : 6.0
+South Cold Rock Pass           : 6.0
+Gjukar's Monument              : 6.0
+Stillborn Cave                 : 6.0
+Black Briar Lodge              : 6.0
+Dushnikh Yal                   : 6.0
+Ruins of Bthalft               : 5.7
+Valtheim Towers                : 5.5
+Druadach Redoubt               : 5.4
+Blizzard Rest                  : 5.3
+Yngvild                        : 5.3
+Dragontooth Crater             : 5.3
+Orotheim                       : 5.3
+Sunderstone Gorge              : 5.2
+Bleakwind Bluff                : 5.2
+Lost Valkygg                   : 5.2
+Bloated Man's Grotto           : 5.1
+Clearspring Tarn               : 5.1
+Darkshade                      : 5.1
+Boulderfall Cave               : 5.1
+Eldersblood Peak               : 5.1
+Skyborn Altar                  : 5.1
+Northwind Summit               : 5.1
+Darkwater Pass                 : 5.1
+Aftershock Radiant Location 4  : 5.0
+Aftershock Radiant Location 6  : 5.0
+Aftershock Radiant Location 7  : 5.0
+Aftershock Radiant Location 18 : 5.0
+Aftershock Radiant Location 24 : 5.0
+Aftershock Radiant Location 25 : 5.0
+Aftershock Radiant Location 27 : 5.0
+Broken Limb Camp               : 5.0
+Steamcrag Camp                 : 5.0
+Witchmist Grove                : 5.0
+Peak's Shade Tower             : 5.0
+Ravenscar Hollow               : 5.0
+Orphan's Tear                  : 5.0
+Chillwind Depths               : 5.0
+Kjenstag Ruins                 : 5.0
+Anga's Mill                    : 5.0
+Duskglow Crevice               : 5.0
+Nightcaller Temple             : 5.0
+Great Lift at Raldbthar        : 5.0
+Markarth Stables               : 5.0
+Old Hroldan Inn                : 5.0
+Gloomreach                     : 5.0
+Bthardamz                      : 5.0
+The Lover Stone                : 5.0
+Alchemist's Shack              : 5.0
+Black-Briar Lodge              : 5.0
+Heartwood Mill                 : 5.0
+Largashbur                     : 5.0
+Fallowstone Cave               : 5.0
+Northwind Mine                 : 5.0
+Shroud Hearth Barrow           : 5.0
+Bleakwind Basin                : 5.0
+Shimmermist Cave               : 5.0
+Whitewatch Tower               : 5.0
+Sightless Pit                  : 5.0
+Whistling Mine                 : 5.0
+Journeyman's Nook              : 5.0
+The Serpent Stone              : 5.0
+Shrine of Azura                : 5.0
+Frostflow Lighthouse           : 5.0
+Skuldafn                       : 5.0
+Narzulbur                      : 5.0
+Lost Knife Hideout             : 4.6
+South Brittleshin Pass         : 4.5
+Fort Fellhammer                : 4.4
+Dragon Bridge Overlook         : 4.4
+Faldar's Tooth                 : 4.3
+Treva's Watch                  : 4.3
+Shadowgreen Cavern             : 4.3
+Lost Valley Redoubt            : 4.2
+Dead Crone Rock                : 4.2
+Halted Stream Camp             : 4.2
+Ancient's Ascent               : 4.1
+Shearpoint                     : 4.1
+Autumnwatch Tower              : 4.1
+Hela's Folly                   : 4.1
+Mistwatch                      : 4.1
+Haemar's Shame                 : 4.0
+Aftershock Radiant Location 12 : 4.0
+Aftershock Radiant Location 21 : 4.0
+Aftershock Radiant Location 22 : 4.0
+Refugees' Rest                 : 4.0
+The Atronach Stone             : 4.0
+Anise's Cabin                  : 4.0
+Twilight Sepulcher             : 4.0
+Orphan Rock                    : 4.0
+Brinewater Grotto              : 4.0
+Crabber's Shanty               : 4.0
+Cradle Stone Tower             : 4.0
+Bard's Leap Summit             : 4.0
+Angarvunde                     : 4.0
+Avanchnzel                     : 4.0
+Stendarr's Beacon              : 4.0
+Ruins of Rkund                 : 4.0
+Whiterun Stormcloak Camp       : 4.0
+North Cold Rock Pass           : 4.0
+Hamvir's Rest                  : 4.0
+Silent Moons Camp              : 4.0
+Greenspring Hollow             : 4.0
+The Tower Stone                : 4.0
+Snowpoint Beacon               : 4.0
+Hag Rock Redoubt               : 3.7
+North Brittleshin Pass         : 3.5
+Serpent's Bluff Redoubt        : 3.4
+Wreck of The Pride of Tel Vos  : 3.1
+Pinepeak Cavern                : 3.1
+Tolvald's Cave                 : 3.1
+Aftershock Radiant Location 8  : 3.0
+Aftershock Radiant Location 10 : 3.0
+Aftershock Radiant Location 17 : 3.0
+Mor Khazgur                    : 3.0
+Gloombound Mine                : 3.0
+Kagrenzel                      : 3.0
+Angi's Camp                    : 3.0
+Meeko's Shack                  : 3.0
+Robber's Gorge                 : 3.0
+The Apprentice Stone           : 3.0
+Reachwind Eyrie                : 3.0
+Lost Prospect Mine             : 3.0
+Arcwind Point                  : 3.0
+Lund's Hut                     : 3.0
+Guldun Rock                    : 3.0
+Whiterun Imperial Camp         : 3.0
+Japhet's Folly                 : 3.0
+Sovngarde                      : 3.0
+Deep Folk Crossing             : 2.7
+Valthume                       : 2.2
+Bloodlet Throne                : 2.0
+Secunda's Kiss                 : 2.0
+Wreck Of The Brinehammer       : 2.0
+Purewater Run                  : 2.0
+Giant's Grove                  : 2.0
+Sleeping Tree Camp             : 2.0
+Pilgrim's Trench               : 2.0
+Hall of Valor                  : 2.0
+Southfringe Sanctum            : 1.2
+Ragnvald                       : 1.2
+Talking Stone Camp             : 1.0
+Skytemple Ruins                : 1.0
+Wreck of the Winter War        : 0.0

@@ -1,0 +1,391 @@
+Report Generated 2025-05-03 16:11:59.159871
+
+Stochastic Columm Sums
+
+Riverwood                      : 2.32
+High Hrothgar                  : 2.26
+Throat of the World            : 2.19
+Sky Haven Temple               : 2.19
+College of Winterhold          : 2.00
+Orotheim                       : 1.93
+Dragonsreach                   : 1.83
+Thalmor Embassy                : 1.82
+Western Watchtower             : 1.81
+Hag Rock Redoubt               : 1.70
+Bleak Falls Barrow             : 1.62
+Reach Imperial Camp            : 1.62
+Falkreath Stormcloak Camp      : 1.58
+Gloomreach                     : 1.58
+Fort Neugrad                   : 1.56
+Drelas' Cottage                : 1.53
+Ancient's Ascent               : 1.53
+Aftershock Radiant Location 9  : 1.53
+Solitude                       : 1.52
+Bilegulch Mine                 : 1.51
+The Serpent Stone              : 1.50
+Mixwater Mill                  : 1.47
+Pinefrost Tower                : 1.47
+Stillborn Cave                 : 1.47
+Ustengrav                      : 1.45
+Battle-Born Farm               : 1.45
+The Tower Stone                : 1.45
+Brood Cavern                   : 1.43
+Knifepoint Ridge               : 1.41
+Ansilvund                      : 1.41
+Cliffside Retreat              : 1.40
+Nightingale Hall               : 1.40
+Uttering Hills Cave            : 1.40
+Alchemist's Shack              : 1.40
+Redoran's Retreat              : 1.40
+Snow-Shod Farm                 : 1.39
+Falkreath                      : 1.38
+Silverdrift Lair               : 1.36
+Cragwallow Slope               : 1.36
+Hillgrund's Tomb               : 1.35
+Falkreath Imperial Camp        : 1.34
+Graywinter Watch               : 1.34
+The Ritual Stone               : 1.34
+Rift Stormcloak Camp           : 1.33
+Fort Hraggstad                 : 1.33
+Tower of Mzark                 : 1.33
+Abandoned Prison               : 1.32
+Mount Anthor                   : 1.31
+Snow Veil Sanctum              : 1.30
+Bruca's Leap Redoubt           : 1.30
+Eldergleam Sanctuary           : 1.29
+Aftershock Radiant Location 19 : 1.29
+Nightgate Inn                  : 1.29
+Left Hand Mine                 : 1.28
+Black Briar Lodge              : 1.28
+Black-Briar Lodge              : 1.28
+Hlaalu Farm                    : 1.28
+Hollyfrost Farm                : 1.28
+Cragslane Cavern               : 1.28
+Rimerock Burrow                : 1.28
+Stonehills                     : 1.28
+Windhelm Military Camp         : 1.27
+Alftand                        : 1.27
+Statue to Meridia              : 1.27
+Aftershock Radiant Location 3  : 1.25
+Pilgrim's Trench               : 1.25
+Yngvild                        : 1.25
+Harmugstahl                    : 1.25
+Aftershock Radiant Location 5  : 1.24
+Bronze Water Cave              : 1.24
+Four Skull Lookout             : 1.23
+Karthspire                     : 1.23
+Rebel's Cairn                  : 1.22
+Eastmarch Imperial Camp        : 1.22
+Shor's Watchtower              : 1.22
+Dark Brotherhood Sanctuary     : 1.22
+Roadside Ruins                 : 1.22
+Lost Echo Cave                 : 1.22
+North Shriekwind Bastion       : 1.21
+Morvunskar                     : 1.20
+Kynesgrove                     : 1.20
+Bloated Man's Grotto           : 1.20
+Fort Snowhawk                  : 1.20
+Cradle Stone Tower             : 1.20
+Sovngarde                      : 1.20
+Ivarstead                      : 1.20
+Aftershock Radiant Location 2  : 1.19
+Aftershock Radiant Location 13 : 1.19
+Dwarven Storeroom              : 1.19
+Mzinchaleft                    : 1.19
+Cradlecrush Rock               : 1.19
+East Empire Company Warehouse  : 1.19
+Autumnshade Clearing           : 1.19
+Geirmund's Hall                : 1.18
+Reachwater Rock                : 1.18
+Dead Men's Respite             : 1.18
+Dushnikh Yal                   : 1.18
+Goldenglow Estate              : 1.17
+Bthardamz                      : 1.17
+Angarvunde                     : 1.17
+Heartwood Mill                 : 1.17
+Broken Fang Cave               : 1.17
+Evergreen Grove                : 1.16
+Reachcliff Cave                : 1.16
+Sightless Pit                  : 1.16
+Whiterun                       : 1.16
+Cronvangr Cave                 : 1.15
+Riften                         : 1.15
+Abandoned Shack                : 1.15
+Greywater Grotto               : 1.15
+South Cold Rock Pass           : 1.15
+Rannveig's Fast                : 1.15
+Fellglow Keep                  : 1.15
+Rift Imperial Camp             : 1.15
+Ruins of Bthalft               : 1.15
+Irkngthand                     : 1.15
+Aftershock Radiant Location 11 : 1.15
+Ilinalta's Deep                : 1.14
+Soljund's Sinkhole             : 1.14
+Volskygge                      : 1.13
+Yorgrim Overlook               : 1.13
+Aftershock Radiant Location 1  : 1.13
+Lost Valkygg                   : 1.13
+Hjaalmarch Stormcloak Camp     : 1.12
+Lower Steepfall Burrow         : 1.12
+Steepfall Burrow               : 1.12
+Blind Cliff Cave               : 1.12
+Halted Stream Camp             : 1.12
+Honeystrand Cave               : 1.12
+Hunter's Rest                  : 1.11
+Solitude Sawmill               : 1.11
+Red Road Pass                  : 1.10
+Reach Stormcloak Camp          : 1.10
+The Katariah                   : 1.10
+Raldbthar                      : 1.10
+Bonechill Passage              : 1.10
+Shrine to Peryite              : 1.10
+Hall of the Vigilant           : 1.10
+The Shadow Stone               : 1.09
+Rift Watchtower                : 1.09
+Half-Moon Mill                 : 1.09
+Druadach Redoubt               : 1.09
+The Lady Stone                 : 1.09
+Salvius Farm                   : 1.09
+Snapleg Cave                   : 1.09
+White River Watch              : 1.09
+Widow's Watch Ruins            : 1.09
+Nightcaller Temple             : 1.08
+Great Lift at Mzinchaleft      : 1.08
+Bonestrewn Crest               : 1.08
+Falkreath Watchtower           : 1.08
+Fort Amol                      : 1.07
+Frostflow Lighthouse           : 1.07
+Sacellum of Boethiah           : 1.07
+Autumnwatch Tower              : 1.07
+Journeyman's Nook              : 1.07
+Whistling Mine                 : 1.07
+Aftershock Radiant Location 16 : 1.06
+High Gate Ruins                : 1.06
+Forelhost                      : 1.06
+Wolfskull Cave                 : 1.06
+Sarethi Farm                   : 1.06
+Nilheim                        : 1.06
+Chillwind Depths               : 1.06
+Dainty Sload                   : 1.06
+Deepwood Redoubt               : 1.06
+Aftershock Radiant Location 20 : 1.06
+Weynon Stones                  : 1.06
+Haafingar Stormcloak Camp      : 1.06
+Kilkreath Ruins                : 1.06
+Aftershock Radiant Location 26 : 1.05
+Stony Creek Cave               : 1.05
+Frostmere Crypt                : 1.05
+Helgen                         : 1.04
+Brinewater Grotto              : 1.03
+Dawnstar                       : 1.03
+Winterhold Imperial Camp       : 1.03
+Serpent's Bluff Redoubt        : 1.03
+Darklight Tower                : 1.03
+The Lord Stone                 : 1.03
+South Shriekwind Bastion       : 1.02
+Riften Stables                 : 1.02
+Aftershock Radiant Location 25 : 1.02
+Red Eagle Redoubt              : 1.02
+Forsaken Cave                  : 1.02
+Mistveil Keep                  : 1.02
+Shor's Stone                   : 1.02
+Boulderfall Cave               : 1.02
+Pale Stormcloak Camp           : 1.01
+Valtheim Towers                : 1.01
+Aftershock Radiant Location 12 : 1.01
+Karthwasten                    : 1.01
+Gjukar's Monument              : 1.00
+Aftershock Radiant Location 22 : 1.00
+Liar's Retreat                 : 1.00
+Merryfair Farm                 : 0.99
+Great Lift at Alftand          : 0.99
+Sundered Towers                : 0.99
+Darkshade                      : 0.99
+Traitor's Post                 : 0.98
+Silent Moons Camp              : 0.98
+Clearspring Tarn               : 0.98
+The Steed Stone                : 0.98
+Windhelm                       : 0.98
+Fort Dunstad                   : 0.97
+Chillfurrow Farm               : 0.97
+Honningbrew Meadery            : 0.97
+Clearpine Pond                 : 0.97
+Broken Helm Hollow             : 0.97
+Northwind Summit               : 0.97
+Crystaldrift Cave              : 0.96
+Northwind Mine                 : 0.96
+Skyborn Altar                  : 0.96
+Halldir's Cairn                : 0.96
+Aftershock Radiant Location 6  : 0.96
+Mara's Eye Pond                : 0.95
+Thieves Guild                  : 0.95
+Sunderstone Gorge              : 0.95
+Pale Imperial Camp             : 0.95
+Ironbind Barrow                : 0.95
+Cracked Tusk Keep              : 0.95
+Driftshade Refuge              : 0.95
+Wayward Pass                   : 0.95
+Aftershock Radiant Location 24 : 0.94
+Bleakwind Basin                : 0.94
+Broken Tower Redoubt           : 0.94
+Stonehill Bluff                : 0.94
+Aftershock Radiant Location 27 : 0.93
+Aftershock Radiant Location 23 : 0.93
+Northwatch Keep                : 0.93
+Windward Ruins                 : 0.93
+Peak's Shade Tower             : 0.93
+Aftershock Radiant Location 15 : 0.92
+Shrouded Grove                 : 0.92
+Duskglow Crevice               : 0.92
+Moss Mother Cavern             : 0.92
+Movarth's Lair                 : 0.92
+Windhelm Stables               : 0.92
+Yngol Barrow                   : 0.92
+Swindler's Den                 : 0.92
+Whiterun Imperial Camp         : 0.92
+Embershard Mine                : 0.92
+Aftershock Radiant Location 14 : 0.91
+Tumble Arch Pass               : 0.91
+Shrine of Mehrunes Dagon       : 0.91
+Whitewatch Tower               : 0.91
+Hjaalmarch Imperial Camp       : 0.91
+Dragontooth Crater             : 0.90
+South Brittleshin Pass         : 0.90
+Understone Keep                : 0.90
+Markarth Stables               : 0.90
+Markarth                       : 0.90
+Hob's Fall Cave                : 0.90
+Folgunthur                     : 0.90
+Darkwater Crossing             : 0.89
+Bannermist Tower               : 0.89
+Bleakwind Bluff                : 0.89
+Kolskeggr Mine                 : 0.89
+Pinemoon Cave                  : 0.88
+Blizzard Rest                  : 0.88
+Brandy-Mug Farm                : 0.88
+Dragon Bridge Overlook         : 0.88
+Crabber's Shanty               : 0.88
+Labyrinthian                   : 0.88
+Korvanjund                     : 0.87
+Aftershock Radiant Location 4  : 0.87
+Eldersblood Peak               : 0.87
+Winterhold Stormcloak Camp     : 0.87
+Lost Valley Redoubt            : 0.87
+Bard's Leap Summit             : 0.87
+Fort Fellhammer                : 0.87
+Shimmermist Cave               : 0.87
+Bleakcoast Cave                : 0.87
+Riverside Shack                : 0.86
+Karthspire Camp                : 0.86
+Mzulft                         : 0.86
+The Guardian Stones            : 0.85
+Ironback Hideout               : 0.85
+Potema's Catacombs             : 0.85
+Wreck of the Icerunner         : 0.85
+Lund's Hut                     : 0.84
+Mistwatch                      : 0.84
+Avanchnzel                     : 0.83
+Wreck of The Pride of Tel Vos  : 0.83
+Solitude Military Camp         : 0.83
+Blue Palace                    : 0.82
+Dragon Bridge                  : 0.82
+Snowpoint Beacon               : 0.81
+The Atronach Stone             : 0.81
+Hamvir's Rest                  : 0.81
+Greenspring Hollow             : 0.81
+Dustman's Cairn                : 0.81
+Steamcrag Camp                 : 0.80
+Aftershock Radiant Location 18 : 0.80
+Lost Tongue Overlook           : 0.78
+The Apprentice Stone           : 0.78
+Morthal                        : 0.78
+Aftershock Radiant Location 10 : 0.78
+North Skybound Watch           : 0.78
+Pinewatch                      : 0.78
+Whiterun Stables               : 0.77
+Pelagia Farm                   : 0.77
+Shroud Hearth Barrow           : 0.77
+Hag's End                      : 0.76
+Shadowgreen Cavern             : 0.76
+Whiterun Military Camp         : 0.76
+Gallows Rock                   : 0.75
+Witchmist Grove                : 0.75
+Largashbur                     : 0.75
+Orphan's Tear                  : 0.74
+Aftershock Radiant Location 7  : 0.74
+Palace of the Kings            : 0.73
+Fallowstone Cave               : 0.73
+Lost Prospect Mine             : 0.73
+Aftershock Radiant Location 21 : 0.73
+Great Lift at Raldbthar        : 0.73
+Kjenstag Ruins                 : 0.73
+Darkwater Pass                 : 0.73
+Treva's Watch                  : 0.73
+Ravenscar Hollow               : 0.72
+Narzulbur                      : 0.72
+Katla's Farm                   : 0.71
+Meeko's Shack                  : 0.71
+Broken Limb Camp               : 0.71
+North Brittleshin Pass         : 0.70
+Fort Sungard                   : 0.70
+Volunruud                      : 0.70
+Froki's Shack                  : 0.70
+Stendarr's Beacon              : 0.69
+Old Hroldan Inn                : 0.68
+North Cold Rock Pass           : 0.68
+Broken Oar Grotto              : 0.67
+Dawnstar Sanctuary             : 0.67
+Rorikstead                     : 0.67
+Hall of Valor                  : 0.67
+Anise's Cabin                  : 0.66
+Robber's Gorge                 : 0.65
+Loreius Farm                   : 0.65
+Arcwind Point                  : 0.65
+Fort Greymoor                  : 0.64
+Shearpoint                     : 0.64
+Faldar's Tooth                 : 0.64
+The Lover Stone                : 0.64
+Solitude Lighthouse            : 0.62
+Shrine of Talos                : 0.62
+Fort Greenwall                 : 0.60
+Aftershock Radiant Location 17 : 0.59
+Reachwind Eyrie                : 0.59
+Ruins of Rkund                 : 0.59
+Orphan Rock                    : 0.58
+Sleeping Tree Camp             : 0.58
+Purewater Run                  : 0.58
+Refugees' Rest                 : 0.58
+Guldun Rock                    : 0.57
+Saarthal                       : 0.57
+Gloombound Mine                : 0.54
+Angi's Camp                    : 0.53
+Shrine of Azura                : 0.53
+Whiterun Stormcloak Camp       : 0.52
+Pinepeak Cavern                : 0.52
+Aftershock Radiant Location 8  : 0.51
+Wreck Of The Brinehammer       : 0.50
+Deep Folk Crossing             : 0.50
+Winterhold                     : 0.50
+Skytemple Ruins                : 0.50
+Hela's Folly                   : 0.50
+Japhet's Folly                 : 0.50
+Ysgramor's Tomb                : 0.50
+Lost Knife Hideout             : 0.48
+Glenmoril Coven                : 0.48
+Skuldafn                       : 0.46
+Kagrenzel                      : 0.45
+Tolvald's Cave                 : 0.45
+Haemar's Shame                 : 0.45
+Valthume                       : 0.45
+Twilight Sepulcher             : 0.42
+Mor Khazgur                    : 0.42
+Septimus Signus's Outpost      : 0.41
+Blackreach                     : 0.41
+Anga's Mill                    : 0.33
+Fort Kastav                    : 0.33
+Dead Crone Rock                : 0.33
+Bloodlet Throne                : 0.25
+Southfringe Sanctum            : 0.25
+Ragnvald                       : 0.25
+Talking Stone Camp             : 0.20
+Secunda's Kiss                 : 0.17

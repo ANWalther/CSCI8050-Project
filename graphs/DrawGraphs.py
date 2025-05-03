@@ -64,8 +64,8 @@ def DrawLocationsGraph(graph:nx.Graph, filename:str=None, scale_edges:bool=False
     #overworld_subgraph = nx.induced_subgraph(graph, node_pos.keys())
     edge_widths = GetEdgeDrawData(graph) if scale_edges else 0.5
     nx.draw_networkx_edges(graph, pos=node_pos, node_size=1, width=edge_widths)
-    nx.draw_networkx_nodes(graph, pos=node_pos, node_color=node_col.values(), node_size=8)
-    nx.draw_networkx_labels(graph, pos=node_pos, font_size=2, font_color="#595959", font_weight="bold", font_family="monospace")
+    nx.draw_networkx_nodes(graph, pos=node_pos, node_color=node_col.values(), node_size=5)
+    nx.draw_networkx_labels(graph, pos=node_pos, font_size=1, font_color="#595959", font_weight="bold", font_family="monospace")
     if not filename == None:
         plt.savefig(filename, format="png", dpi=img_dpi, pad_inches=0.01)
 
@@ -82,20 +82,28 @@ def main():
 
     quest_data = QuestData.ReadQuests()
     locations_prox_graph = CreateGraphs.ReadLocations(True)
-    DrawLocationsGraph(locations_prox_graph, "output/locations_proximity.png")
+    DrawLocationsGraph(locations_prox_graph, "output/proximity_graph.png")
 
     quests_graph = CreateGraphs.ReadLocations(False)
     CreateGraphs.UpdateQuestLocationsGraph(quest_data, quests_graph)
-    DrawLocationsGraph(quests_graph, filename="output/locations_quests.png", scale_edges=False)
+    DrawLocationsGraph(quests_graph, filename="output/quests_graph.png", scale_edges=False)
 
     CreateGraphs.UpdateQuestLocationsGraph(quest_data, locations_prox_graph)
-    DrawLocationsGraph(locations_prox_graph, filename="output/locations_quests_and_proximity.png", scale_edges=False)
+    DrawLocationsGraph(locations_prox_graph, filename="output/quests_and_prox.png", scale_edges=False)
 
     main_quest_data = QuestData.ReadQuests(questline_filter="Main Quest")
     main_quest_graph = CreateGraphs.ReadLocations(False)
     CreateGraphs.UpdateQuestLocationsGraph(main_quest_data, main_quest_graph)
-    DrawLocationsGraph(main_quest_graph, filename="output/locations_main_quest.png", scale_edges=True)
+    DrawLocationsGraph(main_quest_graph, filename="output/main_quest.png", scale_edges=True)
     
+    main_quest_prox_graph = CreateGraphs.ReadLocations(True)
+    CreateGraphs.UpdateQuestLocationsGraph(main_quest_data, main_quest_prox_graph)
+    DrawLocationsGraph(main_quest_prox_graph, filename="output/main_quest_prox.png", scale_edges=True)
+
+    side_quest_data = QuestData.ReadQuests(questline_filter="Side Quest")
+    side_quest_graph = CreateGraphs.ReadLocations(False)
+    CreateGraphs.UpdateQuestLocationsGraph(side_quest_data, side_quest_graph)
+    DrawLocationsGraph(main_quest_prox_graph, filename="output/side_quest.png", scale_edges=True)
 
     # Test drawing locations graph with quest edges
     #questData = CreateGraphs.ReadQuests()
