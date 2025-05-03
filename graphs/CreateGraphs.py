@@ -4,7 +4,7 @@ import math
 import QuestData as quests
 
 locations_data_file = "data/skyrim-locations.csv"
-location_proximity_limit = 19596 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
+location_proximity_limit = 19800 # arbitrarily chosen value based on distance b/w Whiterun and Western Watchtower
 
 def CreateQuestlinesGraph(quest_list:list[quests.Quest]) -> nx.DiGraph:
     questlines_graph = nx.DiGraph()
