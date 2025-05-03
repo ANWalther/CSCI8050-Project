@@ -71,6 +71,8 @@ def DrawLocationsGraph(graph:nx.Graph, filename:str=None, scale_edges:bool=False
 
     if show:
         plt.show()
+    else:
+        plt.clf()
     return
 
 def main():
