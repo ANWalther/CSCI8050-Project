@@ -1,5 +1,6 @@
-Report Generated 2025-05-01 15:27:27.357398
-\nNumber of quests         : 212
+Report Generated 2025-05-02 20:06:52.636349
+
+Number of quests         : 212
 Number of locations      : 169
 AVG locations per quest  : 1.971698113207547
 
