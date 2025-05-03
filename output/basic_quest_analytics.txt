@@ -1,15 +1,14 @@
-Report Generated 2025-05-02 20:06:52.636349
+Report Generated 2025-05-03 17:26:48.214105
 
-Number of quests         : 212
+Number of quests         : 212 + 300 radiant variations
 Number of locations      : 169
 AVG locations per quest  : 1.971698113207547
 
 Quests per questline     :
-Side Quest               : 88
+Side Quest               : 103
 Dark Brotherhood         : 21
 Main Quest               : 20
 Thieves Guild            : 19
-Daedric                  : 15
 Imperial Legion          : 14
 Stormcloaks              : 14
 Companions               : 11

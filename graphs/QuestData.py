@@ -87,7 +87,7 @@ def main():
 
     with open(os.path.join(os.getcwd(), "output", "basic_quest_analytics.txt"), 'w') as report_file:
         report_file.write(f"Report Generated {dt.datetime.now()}\n\n")
-        report_file.write(f"Number of quests         : {len(quest_list)}\n")
+        report_file.write(f"Number of quests         : {len(quest_list)} + {len(radiant_quests)} radiant variations\n")
         report_file.write(f"Number of locations      : {len(loc_counts)}\n")
         report_file.write(f"AVG locations per quest  : {avg_locs}\n\n")
         report_file.write(f"Quests per questline     :\n")

@@ -1,6 +1,6 @@
-Report Generated 2025-05-03 16:48:56.554427
+Report Generated 2025-05-03 17:26:50.752290
 
-Basic Analytics - player origin 'Helgen' 
+Basic Analytics
 
 389 nodes, 73 edges
 graph density 0.0009673230328889832
