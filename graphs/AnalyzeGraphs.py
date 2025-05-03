@@ -3,8 +3,6 @@ import CreateGraphs
 import datetime as dt
 import os
 
-player_origin = "Helgen"
-
 def ExportReport(filename:str, report:str):
     with open(os.path.join(os.getcwd(), "output/graphReports", filename), 'w') as report_file:
         report_file.write(f"Report Generated {dt.datetime.now()}\n\n")
@@ -12,7 +10,7 @@ def ExportReport(filename:str, report:str):
     print(f"Report exported, check output/graphReports/{filename}")
 
 def GenerateBasicReport(graph:nx.Graph) -> str:
-    report = "Basic Analytics - player origin '{}' \n\n".format(player_origin)
+    report = "Basic Analytics\n\n"
 
     nontrivial_connected_components = []
     num_isolated_nodes = 0
