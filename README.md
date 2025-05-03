@@ -30,8 +30,8 @@ The questlines included are:
 - Thieves Guild
     - Delvin's jobs (Numbers, Fishing, and Bedlam) have been consolidated as one radiant quest named "Delvin's Jobs"
     - Vex's jobs (Burglary, Shill, Sweep, and Heist) have been consolidated as one radiant quest named "Vex's Jobs"
-- Daedric Quest(s)
 - Side Quest(s)
+    - Daedric quests now classified as side quests as they are largely unconnected the way other quest lines are
     - radiant quest The Words of Power is excluded due to its large number of possible locations (31 total)
     - radiant bounty quests, which can be given by any inkeeper NPC, jarl NPC, or steward NPC or a hold, are also excluded due to the large number of possible locations
 

@@ -1,0 +1,24 @@
+Report Generated 2025-05-03 16:48:56.655464
+
+Stochastic Columm Sums
+
+Dark Brotherhood Sanctuary     : 10.56
+Dawnstar Sanctuary             : 1.32
+Solitude                       : 1.24
+Whiterun                       : 1.11
+Dragon Bridge                  : 1.04
+Markarth                       : 0.73
+Riften                         : 0.72
+Windhelm                       : 0.60
+Abandoned Shack                : 0.51
+Deepwood Redoubt               : 0.45
+Hag's End                      : 0.45
+The Katariah                   : 0.44
+Nightgate Inn                  : 0.27
+Raldbthar                      : 0.27
+Volunruud                      : 0.12
+Half-Moon Mill                 : 0.04
+Morthal                        : 0.04
+Dawnstar                       : 0.04
+Anga's Mill                    : 0.04
+Ivarstead                      : 0.04

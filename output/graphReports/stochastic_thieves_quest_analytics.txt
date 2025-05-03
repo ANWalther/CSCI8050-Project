@@ -1,0 +1,22 @@
+Report Generated 2025-05-03 16:48:56.697336
+
+Stochastic Columm Sums
+
+Thieves Guild                  : 8.70
+Riften                         : 1.65
+Solitude                       : 1.03
+Irkngthand                     : 1.00
+Snow Veil Sanctum              : 0.79
+Whiterun                       : 0.72
+East Empire Company Warehouse  : 0.63
+Nightingale Hall               : 0.60
+Honningbrew Meadery            : 0.60
+Twilight Sepulcher             : 0.52
+Goldenglow Estate              : 0.40
+Understone Keep                : 0.35
+Markarth                       : 0.33
+Pinewatch                      : 0.30
+Dainty Sload                   : 0.17
+Yngvild                        : 0.14
+Uttering Hills Cave            : 0.07
+Windhelm                       : 0.01

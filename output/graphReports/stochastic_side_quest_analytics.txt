@@ -1,128 +1,155 @@
-Report Generated 2025-05-03 16:11:59.172870
+Report Generated 2025-05-03 16:48:56.634079
 
 Stochastic Columm Sums
 
-College of Winterhold          : 27.80
-Falkreath                      : 9.98
-Dawnstar                       : 9.77
-Solitude                       : 8.04
-Whiterun                       : 7.41
-Windhelm                       : 7.19
-Winterhold                     : 7.00
-Understone Keep                : 6.50
-Riften                         : 6.16
-Markarth                       : 5.16
-Ivarstead                      : 3.39
-Dark Brotherhood Sanctuary     : 3.08
-Blue Palace                    : 2.90
-Dushnikh Yal                   : 2.69
-Old Hroldan Inn                : 2.69
-Mor Khazgur                    : 2.36
+College of Winterhold          : 25.29
+Dawnstar                       : 11.73
+Falkreath                      : 10.02
+Whiterun                       : 8.31
+Solitude                       : 8.07
+Winterhold                     : 7.98
+Markarth                       : 7.51
+Windhelm                       : 7.03
+Riften                         : 6.05
+Understone Keep                : 5.57
+Ivarstead                      : 3.31
+Dark Brotherhood Sanctuary     : 2.94
+Blue Palace                    : 2.92
+Dushnikh Yal                   : 2.52
+Old Hroldan Inn                : 2.48
+Mor Khazgur                    : 2.19
 Darkwater Crossing             : 2.05
-Windward Ruins                 : 1.77
-Narzulbur                      : 1.39
+Knifepoint Ridge               : 1.98
+Windward Ruins                 : 1.75
 Kynesgrove                     : 1.21
-Morthal                        : 1.10
-Fort Greymoor                  : 1.08
-Karthwasten                    : 1.06
+Morthal                        : 1.07
+Fort Greymoor                  : 1.03
+Narzulbur                      : 1.01
 Broken Helm Hollow             : 1.01
+Kilkreath Ruins                : 1.00
+Septimus Signus's Outpost      : 1.00
+Alftand                        : 1.00
+Blackreach                     : 1.00
 Left Hand Mine                 : 1.00
 Kolskeggr Mine                 : 1.00
-Knifepoint Ridge               : 0.99
-Broken Fang Cave               : 0.96
-Froki's Shack                  : 0.95
-Graywinter Watch               : 0.95
-Bleakcoast Cave                : 0.95
-The Guardian Stones            : 0.95
-Loreius Farm                   : 0.95
+Shrine to Peryite              : 1.00
+Bthardamz                      : 1.00
+Fallowstone Cave               : 1.00
+Giant's Grove                  : 1.00
+Largashbur                     : 1.00
+Tower of Mzark                 : 1.00
+Statue to Meridia              : 1.00
+Karthwasten                    : 0.96
 Heartwood Mill                 : 0.94
-Dead Men's Respite             : 0.87
+Broken Fang Cave               : 0.94
+The Guardian Stones            : 0.94
+Loreius Farm                   : 0.94
+Froki's Shack                  : 0.94
+Graywinter Watch               : 0.94
+Bleakcoast Cave                : 0.94
+Dead Men's Respite             : 0.86
 Shor's Stone                   : 0.81
-Wolfskull Cave                 : 0.78
-Broken Tower Redoubt           : 0.75
+Dead Crone Rock                : 0.78
+Wolfskull Cave                 : 0.77
+Cracked Tusk Keep              : 0.76
 Broken Oar Grotto              : 0.74
-Druadach Redoubt               : 0.72
-Forsaken Cave                  : 0.69
-Swindler's Den                 : 0.65
-Stony Creek Cave               : 0.63
-Orphan Rock                    : 0.61
-Eldergleam Sanctuary           : 0.61
+Shrine of Mehrunes Dagon       : 0.72
+Druadach Redoubt               : 0.71
+Ilinalta's Deep                : 0.68
+Broken Tower Redoubt           : 0.67
+Forsaken Cave                  : 0.66
+Shrine of Azura                : 0.64
+Morvunskar                     : 0.63
+Stony Creek Cave               : 0.62
+Haemar's Shame                 : 0.61
+Rimerock Burrow                : 0.60
 Solitude Lighthouse            : 0.60
 Wreck of the Icerunner         : 0.60
 Stonehill Bluff                : 0.59
 Throat of the World            : 0.59
+Dragonsreach                   : 0.58
+Orphan Rock                    : 0.58
+Eldergleam Sanctuary           : 0.58
 Four Skull Lookout             : 0.54
 North Skybound Watch           : 0.54
-Dragonsreach                   : 0.54
-South Brittleshin Pass         : 0.53
-North Brittleshin Pass         : 0.53
+South Brittleshin Pass         : 0.52
+North Brittleshin Pass         : 0.52
 South Shriekwind Bastion       : 0.50
 North Shriekwind Bastion       : 0.50
 Salvius Farm                   : 0.50
-Deep Folk Crossing             : 0.42
-Ruins of Bthalft               : 0.42
-Mzulft                         : 0.42
-Dwarven Storeroom              : 0.42
-Mistveil Keep                  : 0.41
+Rorikstead                     : 0.47
+Swindler's Den                 : 0.44
+Deep Folk Crossing             : 0.41
+Ruins of Bthalft               : 0.41
+Mzulft                         : 0.41
+Dwarven Storeroom              : 0.41
 Mzinchaleft                    : 0.38
 Lost Knife Hideout             : 0.38
 Uttering Hills Cave            : 0.38
 Gjukar's Monument              : 0.37
 Movarth's Lair                 : 0.34
+Mistveil Keep                  : 0.33
 East Empire Company Warehouse  : 0.31
 Cragwallow Slope               : 0.31
 Ansilvund                      : 0.30
-Potema's Catacombs             : 0.30
 Cronvangr Cave                 : 0.29
-Hob's Fall Cave                : 0.29
-Halldir's Cairn                : 0.27
+Potema's Catacombs             : 0.29
+Hob's Fall Cave                : 0.28
 Cragslane Cavern               : 0.27
-Shrine of Talos                : 0.26
+Halldir's Cairn                : 0.26
 Darkwater Pass                 : 0.26
+Shrine of Talos                : 0.25
 Bruca's Leap Redoubt           : 0.25
 Red Eagle Redoubt              : 0.25
 Deepwood Redoubt               : 0.25
 Hag Rock Redoubt               : 0.25
-Japhet's Folly                 : 0.23
 Gallows Rock                   : 0.20
 Markarth Stables               : 0.20
-Harmugstahl                    : 0.18
-Rebel's Cairn                  : 0.17
-Bloodlet Throne                : 0.17
-Anga's Mill                    : 0.17
-Fort Sungard                   : 0.17
+Nightcaller Temple             : 0.18
+Harmugstahl                    : 0.17
+Rebel's Cairn                  : 0.16
 Dragontooth Crater             : 0.15
 Dustman's Cairn                : 0.15
-Morvunskar                     : 0.13
-Northwatch Keep                : 0.12
-Hela's Folly                   : 0.11
-Dragon Bridge Overlook         : 0.10
-Serpent's Bluff Redoubt        : 0.10
+Japhet's Folly                 : 0.15
+Bloated Man's Grotto           : 0.12
+Sacellum of Boethiah           : 0.12
+Bloodlet Throne                : 0.11
+Hela's Folly                   : 0.10
 Shroud Hearth Barrow           : 0.10
 High Hrothgar                  : 0.10
-Wreck of The Pride of Tel Vos  : 0.10
-Hillgrund's Tomb               : 0.08
+Reachcliff Cave                : 0.09
+Fort Sungard                   : 0.09
+Anga's Mill                    : 0.09
+Northwatch Keep                : 0.09
+Wreck of The Pride of Tel Vos  : 0.09
+Dragon Bridge Overlook         : 0.09
+Serpent's Bluff Redoubt        : 0.09
 Merryfair Farm                 : 0.07
 Avanchnzel                     : 0.07
 Black Briar Lodge              : 0.07
-Pinemoon Cave                  : 0.07
-Yngvild                        : 0.06
-Blizzard Rest                  : 0.06
-Red Road Pass                  : 0.06
-Tumble Arch Pass               : 0.06
-Shrouded Grove                 : 0.06
-Embershard Mine                : 0.05
+Pinemoon Cave                  : 0.06
+Hillgrund's Tomb               : 0.04
 Blind Cliff Cave               : 0.04
 Hag's End                      : 0.04
 Lost Valley Redoubt            : 0.04
 Bleakwind Bluff                : 0.04
-Dead Crone Rock                : 0.04
+Yngvild                        : 0.04
+Embershard Mine                : 0.04
 Stonehills                     : 0.03
-Bilegulch Mine                 : 0.03
-Bannermist Tower               : 0.03
-Cracked Tusk Keep              : 0.03
-Southfringe Sanctum            : 0.03
-Sunderstone Gorge              : 0.03
+Blizzard Rest                  : 0.03
+Red Road Pass                  : 0.03
+Tumble Arch Pass               : 0.03
+Shrouded Grove                 : 0.03
+Southfringe Sanctum            : 0.02
+Sunderstone Gorge              : 0.02
+Bilegulch Mine                 : 0.02
+Bannermist Tower               : 0.02
+Volskygge                      : 0.02
+Lost Valkygg                   : 0.02
+High Gate Ruins                : 0.02
+Ragnvald                       : 0.02
+Valthume                       : 0.02
+Forelhost                      : 0.02
 Ironbind Barrow                : 0.02
 Saarthal                       : 0.02
 Snow Veil Sanctum              : 0.02
@@ -133,21 +160,13 @@ Halted Stream Camp             : 0.02
 Redoran's Retreat              : 0.02
 White River Watch              : 0.02
 Valtheim Towers                : 0.02
-Brood Cavern                   : 0.02
-Clearspring Tarn               : 0.02
-Bloated Man's Grotto           : 0.02
-Moss Mother Cavern             : 0.02
-Darkshade                      : 0.02
-Volskygge                      : 0.02
-Lost Valkygg                   : 0.02
-High Gate Ruins                : 0.02
-Ragnvald                       : 0.02
-Valthume                       : 0.02
-Forelhost                      : 0.02
+Moss Mother Cavern             : 0.01
+Darkshade                      : 0.01
 Darklight Tower                : 0.01
+Brood Cavern                   : 0.01
+Clearspring Tarn               : 0.01
 Mara's Eye Pond                : 0.01
 Falkreath Watchtower           : 0.01
-Ilinalta's Deep                : 0.01
 Boulderfall Cave               : 0.01
 Fellglow Keep                  : 0.01
 Shadowgreen Cavern             : 0.01
@@ -160,4 +179,3 @@ Faldar's Tooth                 : 0.01
 Treva's Watch                  : 0.01
 Autumnshade Clearing           : 0.01
 Rannveig's Fast                : 0.01
-Haemar's Shame                 : 0.00

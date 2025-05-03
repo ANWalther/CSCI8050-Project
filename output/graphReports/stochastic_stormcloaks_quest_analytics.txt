@@ -1,0 +1,27 @@
+Report Generated 2025-05-03 16:48:56.687342
+
+Stochastic Columm Sums
+
+Windhelm                       : 2.29
+Hjaalmarch Stormcloak Camp     : 1.62
+Fort Snowhawk                  : 1.62
+Rift Stormcloak Camp           : 1.27
+Fort Greenwall                 : 1.27
+Fort Sungard                   : 1.10
+Whiterun                       : 1.02
+Haafingar Stormcloak Camp      : 1.00
+Fort Hraggstad                 : 1.00
+Falkreath Stormcloak Camp      : 0.91
+Fort Neugrad                   : 0.91
+Markarth                       : 0.85
+Reach Stormcloak Camp          : 0.85
+Morthal                        : 0.85
+Rorikstead                     : 0.85
+Dragon Bridge                  : 0.85
+Pale Stormcloak Camp           : 0.85
+Fort Dunstad                   : 0.85
+Winterhold Stormcloak Camp     : 0.73
+Fort Kastav                    : 0.73
+Korvanjund                     : 0.71
+Solitude                       : 0.50
+The Serpent Stone              : 0.37

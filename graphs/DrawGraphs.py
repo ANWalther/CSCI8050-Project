@@ -1,8 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-import matplotlib.image as img
 import CreateGraphs
-import QuestData
 
 hold_colors = {
     "Eastmarch" : "#ff3300", "Falkreath Hold" : "#ff9900", "Haafingar" : "#ffff66",
@@ -56,9 +54,11 @@ def DrawQuestlinesGraph(graph:nx.DiGraph):
     plt.show()
     return
 
-def DrawLocationsGraph(graph:nx.Graph, filename:str=None, scale_edges:bool=False, img_dpi=1500):
+def DrawLocationsGraph(graph:nx.Graph, filename:str=None, scale_edges:bool=False, img_dpi=1500, show=False):
     # draw edges then nodes and edge labels for more fine-tuned control
     #nx.draw_networkx(locations_graph, pos=GetLocationsPositions(locations_graph))
+    if filename != None:
+        print(f"Drawing {filename}")
 
     node_pos, node_col = GetNodeDrawData(graph)
     #overworld_subgraph = nx.induced_subgraph(graph, node_pos.keys())
@@ -69,7 +69,8 @@ def DrawLocationsGraph(graph:nx.Graph, filename:str=None, scale_edges:bool=False
     if not filename == None:
         plt.savefig(filename, format="png", dpi=img_dpi, pad_inches=0.01)
 
-    plt.show()
+    if show:
+        plt.show()
     return
 
 def main():
@@ -80,30 +81,41 @@ def main():
     
     print("Draw Graphs Main")
 
-    quest_data = QuestData.ReadQuests()
     locations_prox_graph = CreateGraphs.ReadLocations(True)
     DrawLocationsGraph(locations_prox_graph, "output/proximity_graph.png")
 
-    quests_graph = CreateGraphs.ReadLocations(False)
-    CreateGraphs.UpdateQuestLocationsGraph(quest_data, quests_graph)
-    DrawLocationsGraph(quests_graph, filename="output/quests_graph.png", scale_edges=False)
+    all_quests_graph = CreateGraphs.CreateQuestGraph()
+    DrawLocationsGraph(all_quests_graph, filename="output/quests_graph.png", scale_edges=False)
 
-    CreateGraphs.UpdateQuestLocationsGraph(quest_data, locations_prox_graph)
-    DrawLocationsGraph(locations_prox_graph, filename="output/quests_and_prox.png", scale_edges=False)
+    all_quests_prox_graph = CreateGraphs.CreateQuestGraph(proximity=True)
+    DrawLocationsGraph(all_quests_prox_graph, filename="output/quests_and_prox.png", scale_edges=False)
 
-    main_quest_data = QuestData.ReadQuests(questline_filter="Main Quest")
-    main_quest_graph = CreateGraphs.ReadLocations(False)
-    CreateGraphs.UpdateQuestLocationsGraph(main_quest_data, main_quest_graph)
+    main_quest_graph = CreateGraphs.CreateQuestGraph(filter="Main Quest")
     DrawLocationsGraph(main_quest_graph, filename="output/main_quest.png", scale_edges=True)
     
-    main_quest_prox_graph = CreateGraphs.ReadLocations(True)
-    CreateGraphs.UpdateQuestLocationsGraph(main_quest_data, main_quest_prox_graph)
+    main_quest_prox_graph = CreateGraphs.CreateQuestGraph(filter="Main Quest", proximity=True)
     DrawLocationsGraph(main_quest_prox_graph, filename="output/main_quest_prox.png", scale_edges=True)
 
-    side_quest_data = QuestData.ReadQuests(questline_filter="Side Quest")
-    side_quest_graph = CreateGraphs.ReadLocations(False)
-    CreateGraphs.UpdateQuestLocationsGraph(side_quest_data, side_quest_graph)
-    DrawLocationsGraph(main_quest_prox_graph, filename="output/side_quest.png", scale_edges=True)
+    side_quest_graph = CreateGraphs.CreateQuestGraph(filter="Side Quest")
+    DrawLocationsGraph(side_quest_graph, filename="output/side_quest.png", scale_edges=True)
+
+    COW_quest_graph = CreateGraphs.CreateQuestGraph(filter="College of Winterhold")
+    DrawLocationsGraph(COW_quest_graph, filename="output/CoWinterhold_quest.png", scale_edges=True)
+
+    DB_quest_graph = CreateGraphs.CreateQuestGraph(filter="Dark Brotherhood")
+    DrawLocationsGraph(DB_quest_graph, filename="output/DBrotherhood_quest.png", scale_edges=True)
+
+    companions_quest_graph = CreateGraphs.CreateQuestGraph(filter="Companions")
+    DrawLocationsGraph(companions_quest_graph, filename="output/companions_quest.png", scale_edges=True)
+
+    imperial_quest_graph = CreateGraphs.CreateQuestGraph(filter="Imperial Legion")
+    DrawLocationsGraph(imperial_quest_graph, filename="output/imperial_quest.png", scale_edges=True)
+
+    stormcloaks_quest_graph = CreateGraphs.CreateQuestGraph(filter="Stormcloaks")
+    DrawLocationsGraph(stormcloaks_quest_graph, filename="output/stormcloaks_quest.png", scale_edges=True)
+
+    thieves_quest_graph = CreateGraphs.CreateQuestGraph(filter="Thieves Guild")
+    DrawLocationsGraph(thieves_quest_graph, filename="output/thieves_quest.png", scale_edges=True)
 
     # Test drawing locations graph with quest edges
     #questData = CreateGraphs.ReadQuests()

@@ -1,0 +1,40 @@
+Report Generated 2025-05-03 16:48:56.645533
+
+Stochastic Columm Sums
+
+College of Winterhold          : 30.07
+Saarthal                       : 1.76
+Winterhold                     : 0.91
+Reachwater Rock                : 0.68
+Geirmund's Hall                : 0.68
+Folgunthur                     : 0.68
+Mzulft                         : 0.49
+Labyrinthian                   : 0.41
+Fellglow Keep                  : 0.25
+Aftershock Radiant Location 1  : 0.00
+Aftershock Radiant Location 2  : 0.00
+Aftershock Radiant Location 3  : 0.00
+Aftershock Radiant Location 4  : 0.00
+Aftershock Radiant Location 5  : 0.00
+Aftershock Radiant Location 6  : 0.00
+Aftershock Radiant Location 7  : 0.00
+Aftershock Radiant Location 8  : 0.00
+Aftershock Radiant Location 9  : 0.00
+Aftershock Radiant Location 10 : 0.00
+Aftershock Radiant Location 11 : 0.00
+Aftershock Radiant Location 12 : 0.00
+Aftershock Radiant Location 13 : 0.00
+Aftershock Radiant Location 14 : 0.00
+Aftershock Radiant Location 15 : 0.00
+Aftershock Radiant Location 16 : 0.00
+Aftershock Radiant Location 17 : 0.00
+Aftershock Radiant Location 18 : 0.00
+Aftershock Radiant Location 19 : 0.00
+Aftershock Radiant Location 20 : 0.00
+Aftershock Radiant Location 21 : 0.00
+Aftershock Radiant Location 22 : 0.00
+Aftershock Radiant Location 23 : 0.00
+Aftershock Radiant Location 24 : 0.00
+Aftershock Radiant Location 25 : 0.00
+Aftershock Radiant Location 26 : 0.00
+Aftershock Radiant Location 27 : 0.00

@@ -104,6 +104,13 @@ def UpdateQuestLocationsGraph(quest_list:list[quests.Quest], locations_graph:nx.
             for pair in GetLocationPairs(prereq.locations, quest.locations):
                 AddEdge(locations_graph, pair, quest.quest_weight)
 
+def CreateQuestGraph(filter:str=None, proximity:bool=False) -> nx.Graph:
+    graph = ReadLocations(proximity)
+    quest_list = quests.ReadQuests(filter)
+    UpdateQuestLocationsGraph(quest_list, graph)
+
+    return graph
+
 def main():
 
     print("Reading locations data")

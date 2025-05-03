@@ -1,0 +1,31 @@
+Report Generated 2025-05-03 16:48:56.665114
+
+Stochastic Columm Sums
+
+Whiterun                       : 24.08
+Gallows Rock                   : 0.63
+Dustman's Cairn                : 0.57
+Driftshade Refuge              : 0.45
+Glenmoril Coven                : 0.43
+Ysgramor's Tomb                : 0.42
+Pelagia Farm                   : 0.27
+Cragslane Cavern               : 0.01
+Lost Knife Hideout             : 0.01
+Orotheim                       : 0.01
+Broken Helm Hollow             : 0.01
+Faldar's Tooth                 : 0.01
+Treva's Watch                  : 0.01
+Redoran's Retreat              : 0.01
+Valtheim Towers                : 0.01
+Fort Fellhammer                : 0.01
+Swindler's Den                 : 0.01
+Bonestrewn Crest               : 0.00
+Ancient's Ascent               : 0.00
+Eldersblood Peak               : 0.00
+Skyborn Altar                  : 0.00
+Shearpoint                     : 0.00
+Dragontooth Crater             : 0.00
+Autumnwatch Tower              : 0.00
+Lost Tongue Overlook           : 0.00
+Northwind Summit               : 0.00
+Mount Anthor                   : 0.00

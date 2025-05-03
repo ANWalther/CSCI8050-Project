@@ -1,0 +1,26 @@
+Report Generated 2025-05-03 16:48:56.675120
+
+Stochastic Columm Sums
+
+Solitude                       : 2.51
+Windhelm                       : 1.73
+Pale Imperial Camp             : 1.44
+Rift Imperial Camp             : 1.39
+Reach Imperial Camp            : 1.00
+Fort Sungard                   : 1.00
+Fort Snowhawk                  : 1.00
+Hjaalmarch Imperial Camp       : 1.00
+Falkreath Imperial Camp        : 0.97
+Fort Neugrad                   : 0.97
+Eastmarch Imperial Camp        : 0.93
+Winterhold Imperial Camp       : 0.91
+Fort Kastav                    : 0.91
+Whiterun                       : 0.90
+Fort Dunstad                   : 0.84
+Fort Amol                      : 0.80
+Fort Greenwall                 : 0.79
+Mistveil Keep                  : 0.68
+Korvanjund                     : 0.67
+Nightgate Inn                  : 0.64
+Dawnstar                       : 0.64
+Fort Hraggstad                 : 0.28
