@@ -1,4 +1,4 @@
-# Analysis of Quest Design and Player Exploration in Open-World Games
+# Analysis of Quest Design and Player Exploration in Open-World Role-Play Games
 
 ## Project Dependencies
 [networkx](https://networkx.org/)
