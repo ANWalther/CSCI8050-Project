@@ -1,33 +1,25 @@
-Report Generated 2025-05-04 13:59:28.727812
+Report Generated 2025-05-04 13:59:29.207356
 
 Basic Analytics
 
-389 nodes, 1102 edges
-graph density 0.014602602496488485
-2 isolated node(s) (0.51% isolated)
-2 nontrivial connected component(s)
-nontrivial component size(s): 384 3 
+385 nodes, 1060 edges
+graph density 0.01433982683982684
+3 isolated node(s) (0.78% isolated)
+3 nontrivial connected component(s)
+nontrivial component size(s): 377 2 3 
 
 Locations                      : Weight
-High Hrothgar                  : 39.0
-Throat of the World            : 39.0
-Sky Haven Temple               : 32.0
-Riverwood                      : 31.0
-Dragonsreach                   : 24.0
-Solitude                       : 17.0
-Thalmor Embassy                : 17.0
-Riften                         : 17.0
-Tower of Mzark                 : 14.0
-Alftand                        : 14.0
-Kynesgrove                     : 13.0
-Ustengrav                      : 13.0
-Whiterun                       : 13.0
-Western Watchtower             : 13.0
-Windhelm                       : 12.0
+Thieves Guild                  : 52.0
+Solitude                       : 18.4
+Riften                         : 18.4
+Whiterun                       : 18.4
+Honningbrew Meadery            : 16.0
+East Empire Company Warehouse  : 15.0
+Goldenglow Estate              : 15.0
+Nightingale Hall               : 14.0
 Snow-Shod Farm                 : 12.0
-Nightingale Hall               : 12.0
 Battle-Born Farm               : 12.0
-Bleak Falls Barrow             : 11.0
+Thalmor Embassy                : 11.0
 Hlaalu Farm                    : 10.0
 Hollyfrost Farm                : 10.0
 Windhelm Military Camp         : 10.0
@@ -35,27 +27,26 @@ Statue to Meridia              : 10.0
 Karthspire                     : 10.0
 Four Skull Lookout             : 10.0
 Mistveil Keep                  : 10.0
-Ivarstead                      : 10.0
 The Shadow Stone               : 10.0
+Snow Veil Sanctum              : 10.0
 Nightgate Inn                  : 10.0
 Mixwater Mill                  : 9.0
-East Empire Company Warehouse  : 9.0
+Uttering Hills Cave            : 9.0
+Pinewatch                      : 9.0
 Wolfskull Cave                 : 9.0
 Fort Hraggstad                 : 9.0
+Dainty Sload                   : 9.0
 Bronze Water Cave              : 9.0
+Irkngthand                     : 9.0
 Silverdrift Lair               : 9.0
 Blind Cliff Cave               : 9.0
 Red Eagle Redoubt              : 9.0
 Riften Stables                 : 9.0
-Thieves Guild                  : 9.0
-Goldenglow Estate              : 9.0
 Chillfurrow Farm               : 9.0
-Honningbrew Meadery            : 9.0
-Septimus Signus's Outpost      : 9.0
 Aftershock Radiant Location 13 : 9.0
 Aftershock Radiant Location 19 : 9.0
 Kilkreath Ruins                : 9.0
-Blackreach                     : 9.0
+Markarth                       : 8.4
 Windhelm Stables               : 8.0
 Brandy-Mug Farm                : 8.0
 Falkreath                      : 8.0
@@ -71,6 +62,7 @@ Lost Echo Cave                 : 8.0
 The Steed Stone                : 8.0
 Forsaken Cave                  : 8.0
 Karthspire Camp                : 8.0
+Sky Haven Temple               : 8.0
 Merryfair Farm                 : 8.0
 Forelhost                      : 8.0
 Whiterun Stables               : 8.0
@@ -96,7 +88,6 @@ Ansilvund                      : 7.0
 Abandoned Prison               : 7.0
 Sacellum of Boethiah           : 7.0
 Half-Moon Mill                 : 7.0
-Helgen                         : 7.0
 Hunter's Rest                  : 7.0
 Falkreath Imperial Camp        : 7.0
 South Shriekwind Bastion       : 7.0
@@ -113,12 +104,12 @@ Stonehills                     : 7.0
 Hjaalmarch Stormcloak Camp     : 7.0
 Brood Cavern                   : 7.0
 Mzinchaleft                    : 7.0
+Ustengrav                      : 7.0
 Great Lift at Mzinchaleft      : 7.0
 Hall of the Vigilant           : 7.0
 Pale Stormcloak Camp           : 7.0
 Red Road Pass                  : 7.0
 Frostmere Crypt                : 7.0
-Irkngthand                     : 7.0
 Shrouded Grove                 : 7.0
 Weynon Stones                  : 7.0
 Cliffside Retreat              : 7.0
@@ -133,18 +124,21 @@ Harmugstahl                    : 7.0
 Sundered Towers                : 7.0
 Rift Stormcloak Camp           : 7.0
 Crystaldrift Cave              : 7.0
+Dragonsreach                   : 7.0
 Drelas' Cottage                : 7.0
 Whiterun Military Camp         : 7.0
+Western Watchtower             : 7.0
 Aftershock Radiant Location 2  : 7.0
 Aftershock Radiant Location 3  : 7.0
 Aftershock Radiant Location 5  : 7.0
 Aftershock Radiant Location 11 : 7.0
 Aftershock Radiant Location 23 : 7.0
+Windhelm                       : 6.4
 Palace of the Kings            : 6.0
+Kynesgrove                     : 6.0
 Riverside Shack                : 6.0
 Snapleg Cave                   : 6.0
 Stony Creek Cave               : 6.0
-Uttering Hills Cave            : 6.0
 Bonestrewn Crest               : 6.0
 Mzulft                         : 6.0
 Fort Amol                      : 6.0
@@ -170,6 +164,7 @@ Korvanjund                     : 6.0
 Raldbthar                      : 6.0
 Yorgrim Overlook               : 6.0
 Fort Dunstad                   : 6.0
+Understone Keep                : 6.0
 Liar's Retreat                 : 6.0
 Shrine to Peryite              : 6.0
 Broken Tower Redoubt           : 6.0
@@ -188,7 +183,6 @@ South Cold Rock Pass           : 6.0
 Rannveig's Fast                : 6.0
 Fellglow Keep                  : 6.0
 Stillborn Cave                 : 6.0
-Snow Veil Sanctum              : 6.0
 Yngol Barrow                   : 6.0
 Aftershock Radiant Location 9  : 6.0
 Aftershock Radiant Location 14 : 6.0
@@ -200,9 +194,10 @@ Broken Limb Camp               : 5.0
 Steamcrag Camp                 : 5.0
 Gallows Rock                   : 5.0
 Witchmist Grove                : 5.0
-Pinewatch                      : 5.0
+Helgen                         : 5.0
 Halldir's Cairn                : 5.0
 Sunderstone Gorge              : 5.0
+Bleak Falls Barrow             : 5.0
 Ilinalta's Deep                : 5.0
 Peak's Shade Tower             : 5.0
 The Guardian Stones            : 5.0
@@ -210,7 +205,6 @@ Dragon Bridge                  : 5.0
 Pinemoon Cave                  : 5.0
 Ravenscar Hollow               : 5.0
 Northwatch Keep                : 5.0
-Dainty Sload                   : 5.0
 Orphan's Tear                  : 5.0
 Chillwind Depths               : 5.0
 Movarth's Lair                 : 5.0
@@ -225,6 +219,7 @@ Wreck of the Icerunner         : 5.0
 Blizzard Rest                  : 5.0
 Stonehill Bluff                : 5.0
 Duskglow Crevice               : 5.0
+Tower of Mzark                 : 5.0
 Windward Ruins                 : 5.0
 Shrine of Mehrunes Dagon       : 5.0
 Great Lift at Raldbthar        : 5.0
@@ -251,7 +246,9 @@ Valtheim Towers                : 5.0
 Whitewatch Tower               : 5.0
 Winterhold Stormcloak Camp     : 5.0
 Sightless Pit                  : 5.0
+Yngvild                        : 5.0
 Whistling Mine                 : 5.0
+Alftand                        : 5.0
 Journeyman's Nook              : 5.0
 Frostflow Lighthouse           : 5.0
 Aftershock Radiant Location 4  : 5.0
@@ -262,7 +259,6 @@ Aftershock Radiant Location 24 : 5.0
 Aftershock Radiant Location 25 : 5.0
 Aftershock Radiant Location 27 : 5.0
 Black Briar Lodge              : 5.0
-Skuldafn                       : 5.0
 Darkwater Crossing             : 4.0
 Narzulbur                      : 4.0
 Mistwatch                      : 4.0
@@ -273,6 +269,7 @@ Falkreath Stormcloak Camp      : 4.0
 Bloated Man's Grotto           : 4.0
 South Brittleshin Pass         : 4.0
 Ancient's Ascent               : 4.0
+Twilight Sepulcher             : 4.0
 Cracked Tusk Keep              : 4.0
 Fort Neugrad                   : 4.0
 Dragon Bridge Overlook         : 4.0
@@ -283,8 +280,6 @@ Labyrinthian                   : 4.0
 Fort Snowhawk                  : 4.0
 Pale Imperial Camp             : 4.0
 Shearpoint                     : 4.0
-Markarth                       : 4.0
-Understone Keep                : 4.0
 Markarth Stables               : 4.0
 Dushnikh Yal                   : 4.0
 Druadach Redoubt               : 4.0
@@ -297,6 +292,7 @@ Lost Valley Redoubt            : 4.0
 Cradle Stone Tower             : 4.0
 Bard's Leap Summit             : 4.0
 Heartwood Mill                 : 4.0
+Ivarstead                      : 4.0
 Darkwater Pass                 : 4.0
 Autumnwatch Tower              : 4.0
 Angarvunde                     : 4.0
@@ -365,10 +361,8 @@ Aftershock Radiant Location 8  : 3.0
 Aftershock Radiant Location 10 : 3.0
 Aftershock Radiant Location 17 : 3.0
 North Skybound Watch           : 3.0
-Sovngarde                      : 3.0
 Secunda's Kiss                 : 2.0
 Haemar's Shame                 : 2.0
-Twilight Sepulcher             : 2.0
 Orphan Rock                    : 2.0
 Anga's Mill                    : 2.0
 Dawnstar Sanctuary             : 2.0
@@ -377,24 +371,26 @@ Mor Khazgur                    : 2.0
 Purewater Run                  : 2.0
 Valthume                       : 2.0
 Deep Folk Crossing             : 2.0
+Riverwood                      : 2.0
 Rorikstead                     : 2.0
 Sleeping Tree Camp             : 2.0
 College of Winterhold          : 2.0
-Yngvild                        : 2.0
 The Serpent Stone              : 2.0
 Fort Kastav                    : 2.0
 Pilgrim's Trench               : 2.0
 Wreck of The Pride of Tel Vos  : 2.0
-Hall of Valor                  : 2.0
 Southfringe Sanctum            : 1.0
 Bloodlet Throne                : 1.0
 Talking Stone Camp             : 1.0
 Ragnvald                       : 1.0
 Dead Crone Rock                : 1.0
+High Hrothgar                  : 1.0
+Throat of the World            : 1.0
 Winterhold                     : 1.0
 Japhet's Folly                 : 1.0
 Skytemple Ruins                : 1.0
 Ysgramor's Tomb                : 1.0
 Hela's Folly                   : 1.0
 Giant's Grove                  : 0.0
+Septimus Signus's Outpost      : 0.0
 Wreck of the Winter War        : 0.0

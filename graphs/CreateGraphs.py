@@ -113,6 +113,13 @@ def CreateQuestGraph(filter:str=None, proximity:bool=False) -> nx.Graph:
 
     return graph
 
+def CreateQuestGraphs(filter:str=None) -> tuple[nx.Graph, nx.Graph]:
+    quests_graph = CreateQuestGraph(filter, False)
+    quests_and_prox_graph = CreateQuestGraph(filter, True)
+
+    return quests_graph, quests_and_prox_graph
+
+
 def main():
 
     print("Reading locations data")

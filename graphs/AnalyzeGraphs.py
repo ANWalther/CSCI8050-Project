@@ -88,49 +88,59 @@ def main():
     ExportReport("basic_proximity_analytics.txt", GenerateBasicReport(prox_graph))
     ExportReport("stochastic_proximity_analytics.txt", GenerateStochasticReport(prox_graph))
 
-    all_quests_graph = CreateGraphs.CreateQuestGraph()
+    all_quests_graph, all_quests_prox_graph = CreateGraphs.CreateQuestGraphs()
     ExportReport("basic_quests_analytics.txt", GenerateBasicReport(all_quests_graph))
     ExportReport("stochastic_quests_analytics.txt", GenerateStochasticReport(all_quests_graph))
-
-    all_quests_prox_graph = CreateGraphs.CreateQuestGraph(proximity=True)
     ExportReport("basic_quests_and_proximity_analytics.txt", GenerateBasicReport(all_quests_prox_graph))
     ExportReport("stochastic_quests_and_proximity_analytics.txt", GenerateStochasticReport(all_quests_prox_graph))
 
-    main_quest_graph = CreateGraphs.CreateQuestGraph(filter="Main Quest")
+    main_quest_graph, main_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Main Quest")
     ExportReport("basic_main_quest_analytics.txt", GenerateBasicReport(main_quest_graph))
     ExportReport("stochastic_main_quest_analytics.txt", GenerateStochasticReport(main_quest_graph))
-    
-    main_quest_prox_graph = CreateGraphs.CreateQuestGraph(filter="Main Quest", proximity=True)
     ExportReport("basic_main_quest_and_prox_analytics.txt", GenerateBasicReport(main_quest_prox_graph))
     ExportReport("stochastic_main_quest_and_prox_analytics.txt", GenerateStochasticReport(main_quest_prox_graph))
 
-    side_quest_graph = CreateGraphs.CreateQuestGraph(filter="Side Quest")
+    side_quest_graph, side_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Side Quest")
     ExportReport("basic_side_quest_analytics.txt", GenerateBasicReport(side_quest_graph))
     ExportReport("stochastic_side_quest_analytics.txt", GenerateStochasticReport(side_quest_graph))
+    ExportReport("basic_side_quest_and_prox_analytics.txt", GenerateBasicReport(side_quest_prox_graph))
+    ExportReport("stochastic_side_quest_and_prox_analytics.txt", GenerateStochasticReport(side_quest_prox_graph))
 
-    COW_quest_graph = CreateGraphs.CreateQuestGraph(filter="College of Winterhold")
+    COW_quest_graph, COW_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="College of Winterhold")
     ExportReport("basic_CoWinterhold_quest_analytics.txt", GenerateBasicReport(COW_quest_graph))
     ExportReport("stochastic_CoWinterhold_quest_analytics.txt", GenerateStochasticReport(COW_quest_graph))
+    ExportReport("basic_CoWinterhold_quest_and_prox_analytics.txt", GenerateBasicReport(COW_quest_prox_graph))
+    ExportReport("stochastic_CoWinterhold_quest_and_prox_analytics.txt", GenerateStochasticReport(COW_quest_prox_graph))
 
-    DB_quest_graph = CreateGraphs.CreateQuestGraph(filter="Dark Brotherhood")
+    DB_quest_graph, DB_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Dark Brotherhood")
     ExportReport("basic_DBrotherhood_quest_analytics.txt", GenerateBasicReport(DB_quest_graph))
     ExportReport("stochastic_DBrotherhood_quest_analytics.txt", GenerateStochasticReport(DB_quest_graph))
+    ExportReport("basic_DBrotherhood_quest_and_prox_analytics.txt", GenerateBasicReport(DB_quest_prox_graph))
+    ExportReport("stochastic_DBrotherhood_quest_and_prox_analytics.txt", GenerateStochasticReport(DB_quest_prox_graph))
 
-    companions_quest_graph = CreateGraphs.CreateQuestGraph(filter="Companions")
+    companions_quest_graph, companions_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Companions")
     ExportReport("basic_companions_quest_analytics.txt", GenerateBasicReport(companions_quest_graph))
     ExportReport("stochastic_companions_quest_analytics.txt", GenerateStochasticReport(companions_quest_graph))
+    ExportReport("basic_companions_quest_and_prox_analytics.txt", GenerateBasicReport(companions_quest_prox_graph))
+    ExportReport("stochastic_companions_quest_and_prox_analytics.txt", GenerateStochasticReport(companions_quest_prox_graph))
 
-    imperial_quest_graph = CreateGraphs.CreateQuestGraph(filter="Imperial Legion")
+    imperial_quest_graph, imperial_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Imperial Legion")
     ExportReport("basic_imperial_quest_analytics.txt", GenerateBasicReport(imperial_quest_graph))
     ExportReport("stochastic_imperial_quest_analytics.txt", GenerateStochasticReport(imperial_quest_graph))
+    ExportReport("basic_imperial_quest_and_prox_analytics.txt", GenerateBasicReport(imperial_quest_prox_graph))
+    ExportReport("stochastic_imperial_quest_and_prox_analytics.txt", GenerateStochasticReport(imperial_quest_prox_graph))
 
-    stormcloaks_quest_graph = CreateGraphs.CreateQuestGraph(filter="Stormcloaks")
+    stormcloaks_quest_graph, stormcloaks_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Stormcloaks")
     ExportReport("basic_stormcloaks_quest_analytics.txt", GenerateBasicReport(stormcloaks_quest_graph))
     ExportReport("stochastic_stormcloaks_quest_analytics.txt", GenerateStochasticReport(stormcloaks_quest_graph))
+    ExportReport("basic_stormcloaks_quest_and_prox_analytics.txt", GenerateBasicReport(stormcloaks_quest_prox_graph))
+    ExportReport("stochastic_stormcloaks_quest_and_prox_analytics.txt", GenerateStochasticReport(stormcloaks_quest_prox_graph))
 
-    thieves_quest_graph = CreateGraphs.CreateQuestGraph(filter="Thieves Guild")
+    thieves_quest_graph, thieves_quest_prox_graph = CreateGraphs.CreateQuestGraphs(filter="Thieves Guild")
     ExportReport("basic_thieves_quest_analytics.txt", GenerateBasicReport(thieves_quest_graph))
     ExportReport("stochastic_thieves_quest_analytics.txt", GenerateStochasticReport(thieves_quest_graph))
+    ExportReport("basic_thieves_quest_and_prox_analytics.txt", GenerateBasicReport(thieves_quest_prox_graph))
+    ExportReport("stochastic_thieves_quest_and_prox_analytics.txt", GenerateStochasticReport(thieves_quest_prox_graph))
     
     
 
